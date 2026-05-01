@@ -1,37 +1,17 @@
 {
-  "patches": ["7.0", "7.05", "7.1", "7.2"],
-  "categories": ["Savage", "Ultimate", "Criterion"],
-  "roles": ["Tank", "Healer", "Melee", "Physical Ranged", "Magical Ranged"],
-  "sets": [
-    {
-      "id": "1",
-      "patch": "7.0",
-      "category": "Savage",
-      "job": "PLD",
-      "role": "Tank",
-      "name": "7.0 BiS - PLD",
-      "link": "https://etro.gg/gearset/example-pld",
-      "description": "Standard 2.50 GCD BiS for Dawntrail 7.0"
-    },
-    {
-      "id": "2",
-      "patch": "7.05",
-      "category": "Savage",
-      "job": "VPR",
-      "role": "Melee",
-      "name": "7.05 BiS - VPR",
-      "link": "https://xivgear.app/example-vpr",
-      "description": "BiS for Arcadion Savage (LH)"
-    },
-    {
-      "id": "3",
-      "patch": "7.1",
-      "category": "Ultimate",
-      "job": "WHM",
-      "role": "Healer",
-      "name": "7.1 BiS - FRU",
-      "link": "https://etro.gg/gearset/example-whm",
-      "description": "Futures Rewritten (Ultimate) BiS"
-    }
-  ]
+  "7.4 (current)": [
+    { "job": "PLD", "role": "Tank", "link": "https://etro.gg/gearset/example-pld" },
+    { "job": "WAR", "role": "Tank", "link": "https://etro.gg/gearset/example-war" },
+    { "job": "VPR", "role": "DPS", "link": "https://xivgear.app/example-vpr" },
+    { "job": "PCT", "role": "DPS", "link": "https://xivgear.app/example-pct" }
+  ],
+  "FRU": [
+    { "job": "WHM", "role": "Healer", "link": "https://etro.gg/gearset/example-whm" },
+    { "job": "VPR", "role": "DPS", "link": "https://xivgear.app/example-vpr-fru" }
+  ],
+  "TOP": [],
+  "DSR": [],
+  "TEA": [],
+  "UWU": [],
+  "UCOB": []
 }
