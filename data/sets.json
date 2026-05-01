@@ -1,0 +1,17 @@
+{
+  "7.4 (current)": [
+    { "job": "PLD", "role": "Tank", "link": "https://etro.gg/gearset/example-pld" },
+    { "job": "WAR", "role": "Tank", "link": "https://etro.gg/gearset/example-war" },
+    { "job": "VPR", "role": "DPS", "link": "https://xivgear.app/example-vpr" },
+    { "job": "PCT", "role": "DPS", "link": "https://xivgear.app/example-pct" }
+  ],
+  "FRU": [
+    { "job": "WHM", "role": "Healer", "link": "https://etro.gg/gearset/example-whm" },
+    { "job": "VPR", "role": "DPS", "link": "https://xivgear.app/example-vpr-fru" }
+  ],
+  "TOP": [],
+  "DSR": [],
+  "TEA": [],
+  "UWU": [],
+  "UCOB": []
+}
