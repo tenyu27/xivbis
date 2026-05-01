@@ -1,6 +1,6 @@
 # XIVBiS
 
-[xivbis.com](https://xivbis.com), curated list of best-in-slot sets for FFXIV.
+[xivbis.com](https://xivbis.com), curated list of best-in-slot gear sets for FFXIV.
 
 ## Credits
 
