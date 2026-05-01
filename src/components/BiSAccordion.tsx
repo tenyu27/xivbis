@@ -36,10 +36,12 @@ const JOB_ICON_MAP: Record<string, string> = {
   PCT: 'pct',
 };
 
-const ROLE_COLOR_MAP = {
+const ROLE_COLOR_MAP: Record<string, string> = {
   Tank: 'blue',
   Healer: 'green',
-  DPS: 'red',
+  Melee: 'red',
+  Ranged: 'cyan',
+  Caster: 'grape',
 };
 
 interface BiSAccordionProps {
@@ -57,8 +59,8 @@ export function BiSAccordion({ sets, category }: BiSAccordionProps) {
     const color = ROLE_COLOR_MAP[set.role] || 'gray';
 
     const itemBg = computedColorScheme === 'dark'
-      ? rgba(theme.colors[color][9], 0.1)
-      : rgba(theme.colors[color][1], 0.5);
+      ? rgba(theme.colors[color][9], 0.2)
+      : rgba(theme.colors[color][2], 0.5);
 
     const borderColor = computedColorScheme === 'dark'
       ? rgba(theme.colors[color][7], 0.2)
