@@ -1,37 +1,31 @@
 {
   "7.4 (current)": [
-    { "job": "PLD", "role": "Tank", "link": "https://xivgear.app/?page=bis%7Cpld%7Ccurrent&selectedIndex=0" },
-    { "job": "WAR", "role": "Tank", "link": "https://xivgear.app/?page=bis%7Cwar%7Ccurrent&selectedIndex=0" },
-    { "job": "DRK", "role": "Tank", "link": "https://xivgear.app/?page=bis%7Cdrk%7Ccurrent&selectedIndex=0" },
-    { "job": "GNB", "role": "Tank", "link": "https://xivgear.app/?page=bis%7Cgnb%7Ccurrent&selectedIndex=0" },
-    { "job": "WHM", "role": "Healer", "link": "https://xivgear.app/?page=sl%7C73551d94-354a-4e30-9205-5d52d2efaf3f" },
-    { "job": "SCH", "role": "Healer", "link": "https://xivgear.app/?page=sl%7C462ebffd-409a-400c-ab40-3ac6c78cf9ad" },
-    { "job": "AST", "role": "Healer", "link": "https://xivgear.app/?page=sl%7C5ee77798-4286-47cd-8ee7-b5872f25165c" },
-    { "job": "SGE", "role": "Healer", "link": "https://xivgear.app/?page=sl%7C5a21d4d0-b46d-4f3a-92c1-b49b36455af9" },
-    { "job": "MNK", "role": "DPS", "link": "https://xivgear.app/?page=sl%7C8df88ff9-e89c-4503-9085-d7ba8f9ab12b&selectedIndex=14" },
-    { "job": "DRG", "role": "DPS", "link": "https://xivgear.app/?page=bis%7Cdrg%7Ccurrent&selectedIndex=0" },
-    { "job": "NIN", "role": "DPS", "link": "https://xivgear.app/?page=bis%7Cnin%7Ccurrent&selectedIndex=0" },
-    { "job": "SAM", "role": "DPS", "link": "https://xivgear.app/?page=bis%7Csam%7Ccurrent&selectedIndex=1" },
-    { "job": "RPR", "role": "DPS", "link": "https://xivgear.app/?page=bis%7Crpr%7Ccurrent&selectedIndex=0" },
-    { "job": "VPR", "role": "DPS", "link": "https://xivgear.app/?page=sl%7C3cee67ac-1e2e-45af-bbd3-1c41bc55ff4e" },
-    { "job": "BRD", "role": "DPS", "link": "https://xivgear.app/?page=sl%7Ce2c1efce-33f8-4cfe-9db2-bd389aa921bb" },
-    { "job": "MCH", "role": "DPS", "link": "https://xivgear.app/?page=sl%7C3dac7eb3-10e4-4ef3-9373-e1e1a78fcc9b" },
-    { "job": "DNC", "role": "DPS", "link": "https://xivgear.app/?page=bis%7Cdnc%7Ccurrent&selectedIndex=0" },
-    { "job": "BLM", "role": "DPS", "link": "https://xivgear.app/?page=sl%7C08698620-8f30-42df-b4c8-df525fe78a95&selectedIndex=0" },
-    { "job": "RDM", "role": "DPS", "link": "https://xivgear.app/?page=sl%7C3a78b6f3-1c36-4a7d-82c6-a2d3ceee62da" },
-    { "job": "SMN", "role": "DPS", "link": "https://xivgear.app/?page=sl%7Ccff8f14d-cc73-459a-86b8-b7476b4d878c&selectedIndex=0" },
-    { "job": "PCT", "role": "DPS", "link": "https://xivgear.app/?page=sl%7C4bd90c49-7a54-483f-9107-042c89c8c68f&selectedIndex=0" }
+    { "job": "PLD", "jobName": "Paladin", "role": "Tank", "sets": [{"name": "2.50", "link": "https://xivgear.app/?page=bis%7Cpld%7Ccurrent&selectedIndex=0"}] },
+    { "job": "WAR", "jobName": "Warrior", "role": "Tank", "sets": [{"name": "2.50", "link": "https://xivgear.app/?page=bis%7Cwar%7Ccurrent&selectedIndex=0"}] },
+    { "job": "DRK", "jobName": "Dark Knight", "role": "Tank", "sets": [{"name": "2.50", "link": "https://xivgear.app/?page=bis%7Cdrk%7Ccurrent&selectedIndex=0"}] },
+    { "job": "GNB", "jobName": "Gunbreaker", "role": "Tank", "sets": [{"name": "2.50", "link": "https://xivgear.app/?page=bis%7Cgnb%7Ccurrent&selectedIndex=0"}] },
+    { "job": "WHM", "jobName": "White Mage", "role": "Healer", "sets": [{"name": "Standard", "link": "https://xivgear.app/?page=sl%7C73551d94-354a-4e30-9205-5d52d2efaf3f"}] },
+    { "job": "SCH", "jobName": "Scholar", "role": "Healer", "sets": [{"name": "Standard", "link": "https://xivgear.app/?page=sl%7C462ebffd-409a-400c-ab40-3ac6c78cf9ad"}] },
+    { "job": "AST", "jobName": "Astrologian", "role": "Healer", "sets": [{"name": "Standard", "link": "https://xivgear.app/?page=sl%7C5ee77798-4286-47cd-8ee7-b5872f25165c"}] },
+    { "job": "SGE", "jobName": "Sage", "role": "Healer", "sets": [{"name": "Standard", "link": "https://xivgear.app/?page=sl%7C5a21d4d0-b46d-4f3a-92c1-b49b36455af9"}] },
+    { "job": "MNK", "jobName": "Monk", "role": "DPS", "sets": [{"name": "Standard", "link": "https://xivgear.app/?page=sl%7C8df88ff9-e89c-4503-9085-d7ba8f9ab12b&selectedIndex=14"}] },
+    { "job": "DRG", "jobName": "Dragoon", "role": "DPS", "sets": [{"name": "Standard", "link": "https://xivgear.app/?page=bis%7Cdrg%7Ccurrent&selectedIndex=0"}] },
+    { "job": "NIN", "jobName": "Ninja", "role": "DPS", "sets": [{"name": "Standard", "link": "https://xivgear.app/?page=bis%7Cnin%7Ccurrent&selectedIndex=0"}] },
+    { "job": "SAM", "jobName": "Samurai", "role": "DPS", "sets": [{"name": "Standard", "link": "https://xivgear.app/?page=bis%7Csam%7Ccurrent&selectedIndex=1"}] },
+    { "job": "RPR", "jobName": "Reaper", "role": "DPS", "sets": [{"name": "Standard", "link": "https://xivgear.app/?page=bis%7Crpr%7Ccurrent&selectedIndex=0"}] },
+    { "job": "VPR", "jobName": "Viper", "role": "DPS", "sets": [{"name": "Standard", "link": "https://xivgear.app/?page=sl%7C3cee67ac-1e2e-45af-bbd3-1c41bc55ff4e"}] },
+    { "job": "BRD", "jobName": "Bard", "role": "DPS", "sets": [{"name": "Standard", "link": "https://xivgear.app/?page=sl%7Ce2c1efce-33f8-4cfe-9db2-bd389aa921bb"}] },
+    { "job": "MCH", "jobName": "Machinist", "role": "DPS", "sets": [{"name": "Standard", "link": "https://xivgear.app/?page=sl%7C3dac7eb3-10e4-4ef3-9373-e1e1a78fcc9b"}] },
+    { "job": "DNC", "jobName": "Dancer", "role": "DPS", "sets": [{"name": "Standard", "link": "https://xivgear.app/?page=bis%7Cdnc%7Ccurrent&selectedIndex=0"}] },
+    { "job": "BLM", "jobName": "Black Mage", "role": "DPS", "sets": [{"name": "Standard", "link": "https://xivgear.app/?page=sl%7C08698620-8f30-42df-b4c8-df525fe78a95&selectedIndex=0"}] },
+    { "job": "RDM", "jobName": "Red Mage", "role": "DPS", "sets": [{"name": "Standard", "link": "https://xivgear.app/?page=sl%7C3a78b6f3-1c36-4a7d-82c6-a2d3ceee62da"}] },
+    { "job": "SMN", "jobName": "Summoner", "role": "DPS", "sets": [{"name": "Standard", "link": "https://xivgear.app/?page=sl%7Ccff8f14d-cc73-459a-86b8-b7476b4d878c&selectedIndex=0"}] },
+    { "job": "PCT", "jobName": "Pictomancer", "role": "DPS", "sets": [{"name": "Standard", "link": "https://xivgear.app/?page=sl%7C4bd90c49-7a54-483f-9107-042c89c8c68f&selectedIndex=0"}] }
   ],
-  "FRU": [
-  ],
-  "TOP": [
-  ],
-  "DSR": [
-  ],
-  "TEA": [
-  ],
-  "UWU": [
-  ],
-  "UCOB": [
-  ]
+  "FRU": [],
+  "TOP": [],
+  "DSR": [],
+  "TEA": [],
+  "UWU": [],
+  "UCOB": []
 }

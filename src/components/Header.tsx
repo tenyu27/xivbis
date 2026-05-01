@@ -13,22 +13,25 @@ export function Header() {
     <Group justify="space-between" align="center" mb="lg">
       <Box>
         <Text 
+          component="h1"
           variant="gradient" 
           gradient={{ from: 'blue', to: 'cyan', deg: 90 }} 
           fw={800} 
           fz="2rem"
           lh="1.1"
+          m={0}
         >
           XIVBiS
         </Text>
         <Text size="sm" c="dimmed" lts="1px" mt="sm">
-          Curated list of best-in-slot sets, sourced from{' '}
+          Curated list of best-in-slot gear sets, sourced from{' '}
           <Anchor href="https://www.thebalanceffxiv.com/" target="_blank" rel="noopener noreferrer" inherit underline="hover">
             The Balance
           </Anchor>
         </Text>
       </Box>
       <ActionIcon 
+        id="theme-toggle"
         onClick={toggleColorScheme} 
         variant="default" 
         size="lg" 
