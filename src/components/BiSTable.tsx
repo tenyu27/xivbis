@@ -45,8 +45,8 @@ export function BiSTable({ sets, category }: BiSTableProps) {
     const iconName = JOB_ICON_MAP[set.job] || 'none';
     const iconUrl = `https://raw.githubusercontent.com/xivapi/classjob-icons/master/companion/${iconName}.png`;
     const color = ROLE_COLOR_MAP[set.role] || 'gray';
-    
-    const rowBg = computedColorScheme === 'dark' 
+
+    const rowBg = computedColorScheme === 'dark'
       ? rgba(theme.colors[color][9], 0.25)
       : rgba(theme.colors[color][1], 1);
 
@@ -62,13 +62,13 @@ export function BiSTable({ sets, category }: BiSTableProps) {
         </Table.Td>
         <Table.Td>
           <Group justify="flex-end">
-            <Button 
+            <Button
               component="a"
               href={set.link}
               target="_blank"
               rel="noopener noreferrer"
-              variant="filled" 
-              color={color} 
+              variant="filled"
+              color={color}
               size="compact-sm"
               rightSection={<IconExternalLink size={14} />}
             >
