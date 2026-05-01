@@ -22,3 +22,7 @@ This repository follows specific architectural and styling patterns. Please adhe
 ## TypeScript
 
 1.  **Strict Mode**: Maintain strict TypeScript mode and define interfaces for all data structures (e.g., `BiSSet`, `SetsData`).
+
+## Package Management
+
+1.  **Yarn**: Use `yarn` for all package management tasks (installing, adding, or removing dependencies). Always use `yarn` instead of `npm`.
