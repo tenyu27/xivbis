@@ -57,19 +57,33 @@ export function BiSAccordion({ sets, category }: BiSAccordionProps) {
     const color = ROLE_COLOR_MAP[set.role] || 'gray';
 
     const itemBg = computedColorScheme === 'dark'
-      ? rgba(theme.colors[color][9], 0.15)
-      : rgba(theme.colors[color][1], 0.6);
+      ? rgba(theme.colors[color][9], 0.1)
+      : rgba(theme.colors[color][1], 0.5);
+
+    const borderColor = computedColorScheme === 'dark'
+      ? rgba(theme.colors[color][7], 0.2)
+      : rgba(theme.colors[color][3], 0.3);
 
     return (
-      <Accordion.Item key={`${category}-${set.job}-${index}`} value={set.job} bg={itemBg}>
+      <Accordion.Item 
+        key={`${category}-${set.job}-${index}`} 
+        value={set.job} 
+        bg={itemBg}
+        bd={`1px solid ${borderColor}`}
+      >
         <Accordion.Control>
           <Group gap="lg">
-            <Image src={iconUrl} w={32} h={32} fallbackSrc="https://raw.githubusercontent.com/xivapi/classjob-icons/master/companion/none.png" />
+            <Image 
+              src={iconUrl} 
+              w={32} 
+              h={32} 
+              fallbackSrc="https://raw.githubusercontent.com/xivapi/classjob-icons/master/companion/none.png" 
+            />
             <Text fw={700} size="md">{set.jobName}</Text>
           </Group>
         </Accordion.Control>
         <Accordion.Panel>
-          <Group gap="xs">
+          <Group gap="sm" pt="xs">
             {set.sets.map((item, idx) => (
               <Button
                 key={idx}
@@ -78,11 +92,12 @@ export function BiSAccordion({ sets, category }: BiSAccordionProps) {
                 href={item.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                variant="light"
-                color="cyan"
+                variant="gradient"
+                gradient={computedColorScheme === 'dark' ? { from: 'dark.6', to: 'dark.4' } : { from: 'gray.1', to: 'white' }}
+                c={computedColorScheme === 'dark' ? 'gray.1' : 'dark.8'}
                 size="sm"
-                radius="md"
-                rightSection={<IconExternalLink size={14} />}
+                bd={`1px solid ${computedColorScheme === 'dark' ? theme.colors.dark[4] : theme.colors.gray[3]}`}
+                rightSection={<IconExternalLink size={16} opacity={0.6} />}
               >
                 {item.name}
               </Button>
@@ -94,9 +109,9 @@ export function BiSAccordion({ sets, category }: BiSAccordionProps) {
   });
 
   return (
-    <Accordion variant="default" radius="md" multiple>
+    <Accordion multiple>
       {items.length > 0 ? items : (
-        <Paper p="xl" withBorder ta="center">
+        <Paper p="xl" withBorder ta="center" radius="md">
           <Text c="dimmed">No sets available for this category.</Text>
         </Paper>
       )}

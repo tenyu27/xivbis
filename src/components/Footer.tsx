@@ -24,13 +24,13 @@ export function Footer() {
   }, []);
 
   return (
-    <Box component="footer" pb="lg" pt="md">
+    <Box component="footer" pb="xl" pt="lg">
       <Container size="sm">
         <Group justify="space-between">
-          <Text size="xs" c="dimmed">
+          <Text size="sm" c="dimmed">
             Made by tenyu
           </Text>
-          <Text size="xs" c="dimmed">
+          <Text size="sm" c="dimmed">
             Last updated: {lastUpdated}
           </Text>
         </Group>

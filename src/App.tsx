@@ -63,7 +63,6 @@ function App() {
                 onChange={(val) => setCategory(val || Object.keys(data)[0])}
                 allowDeselect={false}
                 size="md"
-                radius="md"
                 maxDropdownHeight={400}
                 w={{ base: '100%', sm: 300 }}
               />

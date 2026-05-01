@@ -10,22 +10,23 @@ export function Header() {
   };
 
   return (
-    <Group justify="space-between" align="center" mb="lg">
+    <Group justify="space-between" align="flex-start" mb="xl" pt="md">
       <Box>
         <Text 
           component="h1"
           variant="gradient" 
-          gradient={{ from: 'blue', to: 'cyan', deg: 90 }} 
-          fw={800} 
-          fz="2rem"
-          lh="1.1"
+          gradient={{ from: 'cyan', to: 'indigo', deg: 135 }} 
+          fw={700} 
+          fz="3rem"
+          lh="1"
+          lts="-1px"
           m={0}
         >
           XIVBiS
         </Text>
-        <Text size="sm" c="dimmed" lts="1px" mt="sm">
+        <Text size="md" c="dimmed" mt="xs" fw={500}>
           Curated list of best-in-slot gear sets, sourced from{' '}
-          <Anchor href="https://www.thebalanceffxiv.com/" target="_blank" rel="noopener noreferrer" inherit underline="hover">
+          <Anchor href="https://www.thebalanceffxiv.com/" target="_blank" rel="noopener noreferrer" inherit fw={600} c="cyan" underline="hover">
             The Balance
           </Anchor>
         </Text>
@@ -33,7 +34,8 @@ export function Header() {
       <ActionIcon 
         id="theme-toggle"
         onClick={toggleColorScheme} 
-        variant="default" 
+        variant="light" 
+        color={computedColorScheme === 'dark' ? 'yellow' : 'indigo'}
         size="lg" 
         aria-label="Toggle color scheme"
         radius="md"
