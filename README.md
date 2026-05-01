@@ -1,16 +1,48 @@
-# React + Vite
+# XIVBiS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, minimalist, and data-driven FFXIV Best-in-Slot (BiS) masterlist.
 
-Currently, two official plugins are available:
+![XIVBiS Preview](public/favicon.svg)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- **Modern UI**: Built with [Mantine](https://mantine.dev) for a clean, professional aesthetic.
+- **Data-Driven**: All gearsets are managed via a simple JSON file—no code changes required to update BiS.
+- **Type-Safe**: Fully implemented in **TypeScript** for robust reliability.
+- **Auto-Deployment**: Integrated with GitHub Actions for seamless deployment to GitHub Pages.
+- **Theme Support**: Native light and dark mode support, defaulting to system settings.
+- **Dynamic Updates**: Automatically displays the last time the data was updated using the GitHub API.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Adding/Updating Sets
 
-## Expanding the ESLint configuration
+To update the gearsets or add new categories (like a new patch or ultimate):
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1.  Open `public/data/sets.json`.
+2.  Add or modify a key in the main object (e.g., `"7.4 (current)"`).
+3.  Add sets following this structure:
+    ```json
+    { "job": "PLD", "role": "Tank", "link": "https://etro.gg/gearset/..." }
+    ```
+4.  Commit and push to `main`. The site will update automatically!
+
+## Development
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+## Credits
+
+- Curated BiS sets sourced from **[The Balance](https://www.thebalanceffxiv.com/)**.
+- Job icons provided by **[XIVAPI](https://xivapi.com/)**.
+- Built by **tenyu**.
+
+---
+FFXIV is a trademark of Square Enix. This project is a community-run tool and is not affiliated with Square Enix.
