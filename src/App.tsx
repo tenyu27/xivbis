@@ -10,7 +10,7 @@ import {
   useComputedColorScheme 
 } from '@mantine/core';
 import { Header } from './components/Header';
-import { BiSTable } from './components/BiSTable';
+import { BiSAccordion } from './components/BiSAccordion';
 import { Footer } from './components/Footer';
 import { SetsData } from './types';
 
@@ -56,6 +56,7 @@ function App() {
 
             <Box>
               <Select
+                id="category-select"
                 placeholder="Pick a patch or fight"
                 data={Object.keys(data)}
                 value={category}
@@ -68,7 +69,7 @@ function App() {
               />
             </Box>
 
-            <BiSTable sets={currentSets} category={category} />
+            <BiSAccordion sets={currentSets} category={category} />
           </Stack>
         </Container>
       </AppShell.Main>
