@@ -1,31 +1,171 @@
 {
   "7.4 (current)": [
-    { "job": "PLD", "jobName": "Paladin", "role": "Tank", "sets": [{"name": "2.50", "link": "https://xivgear.app/?page=bis%7Cpld%7Ccurrent&selectedIndex=0"}] },
-    { "job": "WAR", "jobName": "Warrior", "role": "Tank", "sets": [{"name": "2.50", "link": "https://xivgear.app/?page=bis%7Cwar%7Ccurrent&selectedIndex=0"}] },
-    { "job": "DRK", "jobName": "Dark Knight", "role": "Tank", "sets": [{"name": "2.50", "link": "https://xivgear.app/?page=bis%7Cdrk%7Ccurrent&selectedIndex=0"}] },
-    { "job": "GNB", "jobName": "Gunbreaker", "role": "Tank", "sets": [{"name": "2.50", "link": "https://xivgear.app/?page=bis%7Cgnb%7Ccurrent&selectedIndex=0"}] },
-    { "job": "WHM", "jobName": "White Mage", "role": "Healer", "sets": [{"name": "Standard", "link": "https://xivgear.app/?page=sl%7C73551d94-354a-4e30-9205-5d52d2efaf3f"}] },
-    { "job": "SCH", "jobName": "Scholar", "role": "Healer", "sets": [{"name": "Standard", "link": "https://xivgear.app/?page=sl%7C462ebffd-409a-400c-ab40-3ac6c78cf9ad"}] },
-    { "job": "AST", "jobName": "Astrologian", "role": "Healer", "sets": [{"name": "Standard", "link": "https://xivgear.app/?page=sl%7C5ee77798-4286-47cd-8ee7-b5872f25165c"}] },
-    { "job": "SGE", "jobName": "Sage", "role": "Healer", "sets": [{"name": "Standard", "link": "https://xivgear.app/?page=sl%7C5a21d4d0-b46d-4f3a-92c1-b49b36455af9"}] },
-    { "job": "MNK", "jobName": "Monk", "role": "Melee", "sets": [{"name": "Standard", "link": "https://xivgear.app/?page=sl%7C8df88ff9-e89c-4503-9085-d7ba8f9ab12b&selectedIndex=14"}] },
-    { "job": "DRG", "jobName": "Dragoon", "role": "Melee", "sets": [{"name": "Standard", "link": "https://xivgear.app/?page=bis%7Cdrg%7Ccurrent&selectedIndex=0"}] },
-    { "job": "NIN", "jobName": "Ninja", "role": "Melee", "sets": [{"name": "Standard", "link": "https://xivgear.app/?page=bis%7Cnin%7Ccurrent&selectedIndex=0"}] },
-    { "job": "SAM", "jobName": "Samurai", "role": "Melee", "sets": [{"name": "Standard", "link": "https://xivgear.app/?page=bis%7Csam%7Ccurrent&selectedIndex=1"}] },
-    { "job": "RPR", "jobName": "Reaper", "role": "Melee", "sets": [{"name": "Standard", "link": "https://xivgear.app/?page=bis%7Crpr%7Ccurrent&selectedIndex=0"}] },
-    { "job": "VPR", "jobName": "Viper", "role": "Melee", "sets": [{"name": "Standard", "link": "https://xivgear.app/?page=sl%7C3cee67ac-1e2e-45af-bbd3-1c41bc55ff4e"}] },
-    { "job": "BRD", "jobName": "Bard", "role": "Ranged", "sets": [{"name": "Standard", "link": "https://xivgear.app/?page=sl%7Ce2c1efce-33f8-4cfe-9db2-bd389aa921bb"}] },
-    { "job": "MCH", "jobName": "Machinist", "role": "Ranged", "sets": [{"name": "Standard", "link": "https://xivgear.app/?page=sl%7C3dac7eb3-10e4-4ef3-9373-e1e1a78fcc9b"}] },
-    { "job": "DNC", "jobName": "Dancer", "role": "Ranged", "sets": [{"name": "Standard", "link": "https://xivgear.app/?page=bis%7Cdnc%7Ccurrent&selectedIndex=0"}] },
-    { "job": "BLM", "jobName": "Black Mage", "role": "Caster", "sets": [{"name": "Standard", "link": "https://xivgear.app/?page=sl%7C08698620-8f30-42df-b4c8-df525fe78a95&selectedIndex=0"}] },
-    { "job": "RDM", "jobName": "Red Mage", "role": "Caster", "sets": [{"name": "Standard", "link": "https://xivgear.app/?page=sl%7C3a78b6f3-1c36-4a7d-82c6-a2d3ceee62da"}] },
-    { "job": "SMN", "jobName": "Summoner", "role": "Caster", "sets": [{"name": "Standard", "link": "https://xivgear.app/?page=sl%7Ccff8f14d-cc73-459a-86b8-b7476b4d878c&selectedIndex=0"}] },
-    { "job": "PCT", "jobName": "Pictomancer", "role": "Caster", "sets": [{"name": "Standard", "link": "https://xivgear.app/?page=sl%7C4bd90c49-7a54-483f-9107-042c89c8c68f&selectedIndex=0"}] }
-  ],
-  "FRU": [],
+    { "job": "PLD", "jobName": "Paladin", "role": "Tank", "sets": [
+      {"name": "2.50", "link": "https://xivgear.app/?page=bis%7Cpld%7Ccurrent&selectedIndex=0"}
+    ] },
+    { "job": "WAR", "jobName": "Warrior", "role": "Tank", "sets": [
+      {"name": "2.50", "link": "https://xivgear.app/?page=bis%7Cwar%7Ccurrent&selectedIndex=0"},
+      {"name": "2.45", "link": "https://xivgear.app/?page=bis%7Cwar%7Ccurrent&selectedIndex=1"}
+    ] },
+    { "job": "DRK", "jobName": "Dark Knight", "role": "Tank", "sets": [
+      {"name": "2.50", "link": "https://xivgear.app/?page=bis%7Cdrk%7Ccurrent&selectedIndex=0"},
+      {"name": "2.50", "link": "https://xivgear.app/?page=bis%7Cdrk%7Ccurrent&selectedIndex=1"}
+    ] },
+    { "job": "GNB", "jobName": "Gunbreaker", "role": "Tank", "sets": [
+      {"name": "2.50", "link": "https://xivgear.app/?page=bis%7Cgnb%7Ccurrent&selectedIndex=0"},
+      {"name": "2.50", "link": "https://xivgear.app/?page=bis%7Cgnb%7Ccurrent&selectedIndex=1"},
+      {"name": "2.50", "link": "https://xivgear.app/?page=bis%7Cgnb%7Ccurrent&selectedIndex=2"}
+    ] },
+    { "job": "WHM", "jobName": "White Mage", "role": "Healer", "sets": [
+      {"name": "2.41 max ilvl", "link": "https://xivgear.app/?page=sl|73551d94-354a-4e30-9205-5d52d2efaf3f&onlySetIndex=1"},
+      {"name": "2.29 max ilvl", "link": "https://xivgear.app/?page=sl|73551d94-354a-4e30-9205-5d52d2efaf3f&onlySetIndex=2"},
+      {"name": "2.43 max ilvl", "link": "https://xivgear.app/?page=sl|73551d94-354a-4e30-9205-5d52d2efaf3f&onlySetIndex=3"},
+      {"name": "2.41 max damage", "link": "https://xivgear.app/?page=sl|73551d94-354a-4e30-9205-5d52d2efaf3f&onlySetIndex=5"},
+      {"name": "2.29 max damage", "link": "https://xivgear.app/?page=sl|73551d94-354a-4e30-9205-5d52d2efaf3f&onlySetIndex=6"},
+      {"name": "2.43 max damage", "link": "https://xivgear.app/?page=sl|73551d94-354a-4e30-9205-5d52d2efaf3f&onlySetIndex=7"}
+    ] },
+    { "job": "SCH", "jobName": "Scholar", "role": "Healer", "sets": [
+      {"name": "2.40 max ilvl", "link": "https://xivgear.app/?page=sl%7C462ebffd-409a-400c-ab40-3ac6c78cf9ad"},
+      {"name": "2.31 max ilvl", "link": "https://xivgear.app/?page=sl%7C0ee246c7-6b97-49bf-abe0-3242c9a93ca4"},
+      {"name": "2.40 max damage", "link": "https://xivgear.app/?page=sl%7Cbd329cd1-5135-45d3-97b6-0d1342f6b5fe"},
+      {"name": "2.31 max damage", "link": "https://xivgear.app/?page=sl%7C3aeed012-438c-4559-9d47-ac407c29e6cf"}
+    ] },
+    { "job": "AST", "jobName": "Astrologian", "role": "Healer", "sets": [
+      {"name": "2.43 max ilvl (Cooking Dinner)", "link": "https://xivgear.app/?page=sl%7C5ee77798-4286-47cd-8ee7-b5872f25165c"},
+      {"name": "2.31 max ilvl (Battlefield 6)", "link": "https://xivgear.app/?page=sl%7C5a11be40-8c70-49f1-8b8a-e18214c10708"},
+      {"name": "2.43 max damage (Phasmophobia)", "link": "https://xivgear.app/?page=sl%7Cd223a0a1-dde4-410a-ac59-e8593e019a63"},
+      {"name": "2.31 max damage (Genshin Impact)", "link": "https://xivgear.app/?page=sl%7Cdca27524-4c12-4cd0-b26b-9bc4abba2d27"}
+    ] },
+    { "job": "SGE", "jobName": "Sage", "role": "Healer", "sets": [
+      {"name": "2.45 max ilvl", "link": "https://xivgear.app/?page=sl%7C5a21d4d0-b46d-4f3a-92c1-b49b36455af9"},
+      {"name": "2.39 max ilvl", "link": "https://xivgear.app/?page=sl%7Caa469de7-d685-4b6a-be2c-789961204c42"},
+      {"name": "2.44 max damage", "link": "https://xivgear.app/?page=sl%7C9819c827-f701-4aec-8b21-2f46e37cb1e6"},
+      {"name": "2.39 max damage", "link": "https://xivgear.app/?page=sl%7Ccb86be25-c3c0-4abf-b63c-a1967f34d73e"}
+    ] },
+    { "job": "MNK", "jobName": "Monk", "role": "Melee", "sets": [
+      {"name": "1.94", "link": "https://xivgear.app/?page=sl%7C8df88ff9-e89c-4503-9085-d7ba8f9ab12b&selectedIndex=14"},
+      {"name": "1.93", "link": "https://xivgear.app/?page=sl%7C8df88ff9-e89c-4503-9085-d7ba8f9ab12b&selectedIndex=16"}
+    ] },
+    { "job": "DRG", "jobName": "Dragoon", "role": "Melee", "sets": [
+      {"name": "2.50", "link": "https://xivgear.app/?page=bis%7Cdrg%7Ccurrent&selectedIndex=0"}
+    ] },
+    { "job": "NIN", "jobName": "Ninja", "role": "Melee", "sets": [
+      {"name": "2.12", "link": "https://xivgear.app/?page=bis%7Cnin%7Ccurrent&selectedIndex=0"}
+    ] },
+    { "job": "SAM", "jobName": "Samurai", "role": "Melee", "sets": [
+      {"name": "2.14", "link": "https://xivgear.app/?page=bis%7Csam%7Ccurrent&selectedIndex=1"},
+      {"name": "2.08", "link": "https://xivgear.app/?page=bis%7Csam%7Ccurrent&selectedIndex=6"}
+    ] },
+    { "job": "RPR", "jobName": "Reaper", "role": "Melee", "sets": [
+      {"name": "2.49", "link": "https://xivgear.app/?page=bis%7Crpr%7Ccurrent&selectedIndex=0"}
+    ] },
+    { "job": "VPR", "jobName": "Viper", "role": "Melee", "sets": [
+      {"name": "2.12", "link": "https://xivgear.app/?page=sl%7C3cee67ac-1e2e-45af-bbd3-1c41bc55ff4e"}
+    ] },
+    { "job": "BRD", "jobName": "Bard", "role": "Ranged", "sets": [
+      {"name": "2.49", "link": "https://xivgear.app/?page=sl%7Ce2c1efce-33f8-4cfe-9db2-bd389aa921bb"}
+    ] },
+    { "job": "MCH", "jobName": "Machinist", "role": "Ranged", "sets": [
+      {"name": "2.50", "link": "https://xivgear.app/?page=sl%7C3dac7eb3-10e4-4ef3-9373-e1e1a78fcc9b"}
+    ] },
+    { "job": "DNC", "jobName": "Dancer", "role": "Ranged", "sets": [
+      {"name": "2.50", "link": "https://xivgear.app/?page=bis%7Cdnc%7Ccurrent&selectedIndex=0"}
+    ] },
+    { "job": "BLM", "jobName": "Black Mage", "role": "Caster", "sets": [
+      {"name": "2.15 high sps", "link": "https://xivgear.app/?page=sl%7C08698620-8f30-42df-b4c8-df525fe78a95&selectedIndex=0"},
+      {"name": "2.20 high sps", "link": "https://xivgear.app/?page=sl%7C08698620-8f30-42df-b4c8-df525fe78a95&selectedIndex=1"},
+      {"name": "2.32 high crit", "link": "https://xivgear.app/?page=sl%7C08698620-8f30-42df-b4c8-df525fe78a95&selectedIndex=2"},
+      {"name": "2.37 high crit", "link": "https://xivgear.app/?page=sl%7C08698620-8f30-42df-b4c8-df525fe78a95&selectedIndex=3"},
+      {"name": "2.41 high crit", "link": "https://xivgear.app/?page=sl%7C08698620-8f30-42df-b4c8-df525fe78a95&selectedIndex=4"},
+      {"name": "2.45 high crit", "link": "https://xivgear.app/?page=sl%7C08698620-8f30-42df-b4c8-df525fe78a95&selectedIndex=5"}
+    ] },
+    { "job": "RDM", "jobName": "Red Mage", "role": "Caster", "sets": [
+      {"name": "2.50", "link": "https://xivgear.app/?page=sl%7Cbfc781a4-ef20-4f2d-ba35-66388adb30c6"},
+      {"name": "2.49", "link": "https://xivgear.app/?page=sl%7C3a78b6f3-1c36-4a7d-82c6-a2d3ceee62da"},
+      {"name": "2.48", "link": "https://xivgear.app/?page=sl%7Cd01bbb2f-0636-486e-a633-e7a9944760a4"}
+    ] },
+    { "job": "SMN", "jobName": "Summoner", "role": "Caster", "sets": [
+      {"name": "2.48", "link": "https://xivgear.app/?page=sl%7Ccff8f14d-cc73-459a-86b8-b7476b4d878c&selectedIndex=0"},
+      {"name": "2.48 sync friendly", "link": "https://xivgear.app/?page=sl%7Ccff8f14d-cc73-459a-86b8-b7476b4d878c&selectedIndex=1"},
+      {"name": "2.47", "link": "https://xivgear.app/?page=sl%7Ccff8f14d-cc73-459a-86b8-b7476b4d878c&selectedIndex=2"},
+      {"name": "2.47 sync friendly", "link": "https://xivgear.app/?page=sl%7Ccff8f14d-cc73-459a-86b8-b7476b4d878c&selectedIndex=3"},
+      {"name": "2.46", "link": "https://xivgear.app/?page=sl%7Ccff8f14d-cc73-459a-86b8-b7476b4d878c&selectedIndex=4"},
+      {"name": "2.46 sync friendly", "link": "https://xivgear.app/?page=sl%7Ccff8f14d-cc73-459a-86b8-b7476b4d878c&selectedIndex=5"}
+    ] },
+    { "job": "PCT", "jobName": "Pictomancer", "role": "Caster", "sets": [
+      {"name": "2.50", "link": "https://xivgear.app/?page=sl%7C4bd90c49-7a54-483f-9107-042c89c8c68f&selectedIndex=0"},
+      {"name": "2.49", "link": "https://xivgear.app/?page=sl%7C4bd90c49-7a54-483f-9107-042c89c8c68f&selectedIndex=1"},
+      {"name": "2.48", "link": "https://xivgear.app/?page=sl%7C4bd90c49-7a54-483f-9107-042c89c8c68f&selectedIndex=2"}
+    ] }],
+  "FRU": [
+    { "job": "PLD", "jobName": "Paladin", "role": "Tank", "sets": [
+      {"name": "All sets", "link": "https://xivgear.app/?page=bis|pld|ultimate|fru"}
+    ] },
+    { "job": "WAR", "jobName": "Warrior", "role": "Tank", "sets": [
+      {"name": "All sets", "link": "https://xivgear.app/#/bis/war/ultimate/fru"}
+    ] },
+    { "job": "DRK", "jobName": "Dark Knight", "role": "Tank", "sets": [
+      {"name": "All sets", "link": "https://xivgear.app/#/bis/drk/ultimate/fru"}
+    ] },
+    { "job": "GNB", "jobName": "Gunbreaker", "role": "Tank", "sets": [
+      {"name": "All sets", "link": "https://xivgear.app/#/bis/gnb/ultimate/fru"}
+    ] },
+    { "job": "WHM", "jobName": "White Mage", "role": "Healer", "sets": [
+      {"name": "2.43 with chaotic", "link": "https://xivgear.app/?page=sl%7Ca1149754-8156-4dd0-abca-b89d27f5380c"},
+      {"name": "2.46 without chaotic", "link": "https://xivgear.app/?page=sl%7Cb170c30d-ac07-43dd-afc7-fc87ec0195d8"},
+      {"name": "2.48 with relic & chaotic", "link": "https://xivgear.app/?page=sl%7C3ac6a52a-784a-4415-bace-d83715cd2f31"},
+      {"name": "2.46 with relic & no chaotic", "link": "https://xivgear.app/?page=sl%7Cee2b1ca0-f226-4bb8-82c8-39d9fdad646a"},
+      {"name": "Extras", "link": "https://xivgear.app/?page=sl%7Cfa2d771d-3d1a-4aa9-8194-974271c58105"}
+    ] },
+    { "job": "SCH", "jobName": "Scholar", "role": "Healer", "sets": [
+      {"name": "All sets", "link": "https://xivgear.app/?page=sl|6bb5fbca-35e6-4142-8bf0-9b50b80e900e"}
+    ] },
+    { "job": "AST", "jobName": "Astrologian", "role": "Healer", "sets": [
+      {"name": "All sets", "link": "https://xivgear.app/?page=sl%7C371125fe-a34c-4fc6-972b-ad25ef50004d"}
+    ] },
+    { "job": "SGE", "jobName": "Sage", "role": "Healer", "sets": [
+      {"name": "2.45 with chaotic", "link": "https://xivgear.app/?page=sl%7C326bbcc1-6390-484e-91a7-c608eeba192e"},
+      {"name": "2.45 without chaotic", "link": "https://xivgear.app/?page=sl%7Cf5d6235f-4517-4328-9cb5-370d9d3c931f"}
+    ] },
+    { "job": "MNK", "jobName": "Monk", "role": "Melee", "sets": [
+      {"name": "ALl sets", "link": "https://docs.google.com/document/d/1aXJLZCs0t2jxeGO56RXKamUc4QJV35WER6IOt96ckao/edit?tab=t.0"}
+    ] },
+    { "job": "DRG", "jobName": "Dragoon", "role": "Melee", "sets": [
+      {"name": "2.50", "link": "https://xivgear.app/?page=bis%7Cdrg%7Cultimate%7Cfru&selectedIndex=0"}
+    ] },
+    { "job": "NIN", "jobName": "Ninja", "role": "Melee", "sets": [
+      {"name": "2.12", "link": "https://xivgear.app/?page=sl%7Cd3479b42-1d9f-4ed2-b003-f3b5f3059f01"}
+    ] },
+    { "job": "SAM", "jobName": "Samurai", "role": "Melee", "sets": [
+      {"name": "All sets", "link": "https://xivgear.app/?page=bis|sam|ultimate|fru"}
+    ] },
+    { "job": "RPR", "jobName": "Reaper", "role": "Melee", "sets": [
+      {"name": "2.49", "link": "https://xivgear.app/?page=sl%7C1cf30cb3-3fb2-47b9-a500-d8b117791a8e"}
+    ] },
+    { "job": "VPR", "jobName": "Viper", "role": "Melee", "sets": [
+      {"name": "2.09", "link": "https://xivgear.app/?page=sl%7C764814e5-62d2-430b-a7ac-09f9ab72a266"}
+    ] },
+    { "job": "BRD", "jobName": "Bard", "role": "Ranged", "sets": [
+      {"name": "2.49", "link": "https://xivgear.app/?page=sl%7C3ad7746a-b612-4b34-9d24-a0f8ae20c857"}
+    ] },
+    { "job": "MCH", "jobName": "Machinist", "role": "Ranged", "sets": [
+      {"name": "2.50", "link": "https://xivgear.app/?page=sl%7C29b58122-8c79-4c92-8569-2aac404fe861&selectedIndex=0"}
+    ] },
+    { "job": "DNC", "jobName": "Dancer", "role": "Ranged", "sets": [
+      {"name": "2.50", "link": "https://xivgear.app/?page=bis%7Cdnc%7Cultimate%7Cfru&selectedIndex=0"}
+    ] },
+    { "job": "BLM", "jobName": "Black Mage", "role": "Caster", "sets": [
+      {"name": "All sets", "link": "https://xivgear.app/?page=sl%7Cf83e8415-c192-4e91-84df-09c70a47f3d1"}
+    ] },
+    { "job": "RDM", "jobName": "Red Mage", "role": "Caster", "sets": [
+      {"name": "2.50", "link": "https://xivgear.app/?page=sl%7C67c7d792-7685-41d8-8b46-b559fb74b1fc&selectedIndex=3"}
+    ] },
+    { "job": "SMN", "jobName": "Summoner", "role": "Caster", "sets": [
+      {"name": "2.48", "link": "https://xivgear.app/?page=sl%7C02243465-733d-4ee5-b92e-6e924fb4591c&selectedIndex=1"}
+    ] },
+    { "job": "PCT", "jobName": "Pictomancer", "role": "Caster", "sets": [
+      {"name": "All sets", "link": "https://xivgear.app/?page=sl%7C15490375-060a-47a2-80a7-da90a5554ed8"}
+    ] }],
   "TOP": [],
-  "DSR": [],
-  "TEA": [],
-  "UWU": [],
-  "UCOB": []
+  "DSR": []
 }
