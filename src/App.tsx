@@ -12,7 +12,7 @@ import {
 import { Header } from './components/Header';
 import { BiSAccordion } from './components/BiSAccordion';
 import { Footer } from './components/Footer';
-import { SetsData } from './types';
+import { SetsData, BiSSet, JobData } from './types';
 
 function App() {
   const [data, setData] = useState<SetsData | null>(null);
@@ -25,9 +25,8 @@ function App() {
       .then(res => res.json())
       .then((json: SetsData) => {
         setData(json);
-        const categories = Object.keys(json);
-        if (categories.length > 0) {
-          setCategory(categories[0]);
+        if (json.categories.length > 0) {
+          setCategory(json.categories[0]);
         }
         setLoading(false);
       })
@@ -45,7 +44,18 @@ function App() {
     );
   }
 
-  const currentSets = data[category] || [];
+  const currentSets: BiSSet[] = Object.entries(data)
+    .filter(([key, value]) => key !== 'categories' && typeof value !== 'string' && !Array.isArray(value))
+    .map(([jobCode, jobData]) => {
+      const data = jobData as JobData;
+      return {
+        job: jobCode,
+        jobName: data.name,
+        role: data.Role,
+        sets: data.Sets[category] || []
+      };
+    })
+    .filter(set => set.sets.length > 0);
 
   return (
     <AppShell padding="md">
@@ -58,9 +68,9 @@ function App() {
               <Select
                 id="category-select"
                 placeholder="Pick a patch or fight"
-                data={Object.keys(data)}
+                data={data.categories}
                 value={category}
-                onChange={(val) => setCategory(val || Object.keys(data)[0])}
+                onChange={(val) => setCategory(val || data.categories[0])}
                 allowDeselect={false}
                 size="md"
                 maxDropdownHeight={400}

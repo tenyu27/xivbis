@@ -3,11 +3,20 @@ export interface BiSSetItem {
   link: string;
 }
 
+export interface JobData {
+  name: string;
+  Role: string;
+  Sets: Record<string, BiSSetItem[]>;
+}
+
+export interface SetsData {
+  categories: string[];
+  [jobCode: string]: JobData | string[];
+}
+
 export interface BiSSet {
   job: string;
   jobName: string;
-  role: 'Tank' | 'Healer' | 'DPS';
+  role: string;
   sets: BiSSetItem[];
 }
-
-export type SetsData = Record<string, BiSSet[]>;
