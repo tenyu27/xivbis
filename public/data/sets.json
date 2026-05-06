@@ -13,8 +13,8 @@
     ] },
     { "job": "GNB", "jobName": "Gunbreaker", "role": "Tank", "sets": [
       {"name": "2.50", "link": "https://xivgear.app/?page=bis%7Cgnb%7Ccurrent&selectedIndex=0"},
-      {"name": "2.50", "link": "https://xivgear.app/?page=bis%7Cgnb%7Ccurrent&selectedIndex=1"},
-      {"name": "2.50", "link": "https://xivgear.app/?page=bis%7Cgnb%7Ccurrent&selectedIndex=2"}
+      {"name": "2.45", "link": "https://xivgear.app/?page=bis%7Cgnb%7Ccurrent&selectedIndex=1"},
+      {"name": "2.40", "link": "https://xivgear.app/?page=bis%7Cgnb%7Ccurrent&selectedIndex=2"}
     ] },
     { "job": "WHM", "jobName": "White Mage", "role": "Healer", "sets": [
       {"name": "2.41 max ilvl", "link": "https://xivgear.app/?page=sl|73551d94-354a-4e30-9205-5d52d2efaf3f&onlySetIndex=1"},
