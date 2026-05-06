@@ -1,7 +1,9 @@
 {
   "categories": [
     "7.4 (current)",
-    "FRU"
+    "FRU",
+    "TOP",
+    "DSR"
   ],
   "PLD": {
     "name": "Paladin",
@@ -17,6 +19,18 @@
         {
           "name": "All sets",
           "link": "https://xivgear.app/?page=bis|pld|ultimate|fru"
+        }
+      ],
+      "TOP": [
+        {
+          "name": "All sets",
+          "link": "https://xivgear.app/?page=bis|pld|ultimate|top"
+        }
+      ],
+      "DSR": [
+        {
+          "name": "All sets",
+          "link": "https://xivgear.app/?page=bis|pld|ultimate|dsr"
         }
       ]
     }
@@ -40,6 +54,18 @@
           "name": "All sets",
           "link": "https://xivgear.app/#/bis/war/ultimate/fru"
         }
+      ],
+      "TOP": [
+        {
+          "name": "All sets",
+          "link": "https://xivgear.app/#/bis/war/ultimate/top"
+        }
+      ],
+      "DSR": [
+        {
+          "name": "All sets",
+          "link": "https://xivgear.app/#/bis/war/ultimate/dsr"
+        }
       ]
     }
   },
@@ -61,6 +87,18 @@
         {
           "name": "All sets",
           "link": "https://xivgear.app/#/bis/drk/ultimate/fru"
+        }
+      ],
+      "TOP": [
+        {
+          "name": "All sets",
+          "link": "https://xivgear.app/#/bis/drk/ultimate/top"
+        }
+      ],
+      "DSR": [
+        {
+          "name": "All sets",
+          "link": "https://xivgear.app/#/bis/drk/ultimate/dsr"
         }
       ]
     }
@@ -87,6 +125,18 @@
         {
           "name": "All sets",
           "link": "https://xivgear.app/#/bis/gnb/ultimate/fru"
+        }
+      ],
+      "TOP": [
+        {
+          "name": "All sets",
+          "link": "https://xivgear.app/#/bis/gnb/ultimate/top"
+        }
+      ],
+      "DSR": [
+        {
+          "name": "All sets",
+          "link": "https://xivgear.app/#/bis/gnb/ultimate/dsr"
         }
       ]
     }
@@ -119,6 +169,10 @@
         {
           "name": "2.43 max damage",
           "link": "https://xivgear.app/?page=sl|73551d94-354a-4e30-9205-5d52d2efaf3f&onlySetIndex=7"
+        },
+        {
+          "name": "Omni healer sets",
+          "link": "https://xivgear.app/?page=sl|f5aa8cde-86b5-4d2f-b104-1fd03ea859d2"
         }
       ],
       "FRU": [
@@ -141,6 +195,22 @@
         {
           "name": "Extras",
           "link": "https://xivgear.app/?page=sl%7Cfa2d771d-3d1a-4aa9-8194-974271c58105"
+        }
+      ],
+      "TOP": [
+        {
+          "name": "2.34",
+          "link": "https://etro.gg/gearset/05790d3e-9c3d-466f-903a-c54f0c200074"
+        }
+      ],
+      "DSR": [
+        {
+          "name": "Low piety sets",
+          "link": "https://xivgear.app/?page=sl|78913d36-0651-481e-a0af-ffe55dff2a21"
+        },
+        {
+          "name": "High piety sets",
+          "link": "https://xivgear.app/?page=sl|b1c26b89-d393-49a4-84aa-1136501cd91c"
         }
       ]
     }
@@ -165,12 +235,44 @@
         {
           "name": "2.31 max damage",
           "link": "https://xivgear.app/?page=sl%7C3aeed012-438c-4559-9d47-ac407c29e6cf"
+        },
+        {
+          "name": "Omni healer sets",
+          "link": "https://xivgear.app/?page=sl|f5aa8cde-86b5-4d2f-b104-1fd03ea859d2"
         }
       ],
       "FRU": [
         {
           "name": "All sets",
-          "link": "https://xivgear.app/?page=sl|6bb5fbca-35e6-4142-8bf0-9b50b80e900e"
+          "link": "https://xivgear.app/?page=sl|a598aaf5-f595-4447-a42e-b7cb023e07dd"
+        }
+      ],
+      "TOP": [
+        {
+          "name": "2.40 with relic & dungeon",
+          "link": "https://xivgear.app/?page=sl|9d5eec2a-bf20-4152-95c1-f017e9e8bc93&onlySetIndex=1"
+        },
+        {
+          "name": "2.31 with relic & dungeon",
+          "link": "https://xivgear.app/?page=sl|9d5eec2a-bf20-4152-95c1-f017e9e8bc93&onlySetIndex=2"
+        },
+        {
+          "name": "2.40 with dungeon",
+          "link": "https://xivgear.app/?page=sl|9d5eec2a-bf20-4152-95c1-f017e9e8bc93&onlySetIndex=4"
+        },
+        {
+          "name": "2.31 with dungeon",
+          "link": "https://xivgear.app/?page=sl|9d5eec2a-bf20-4152-95c1-f017e9e8bc93&onlySetIndex=5"
+        }
+      ],
+      "DSR": [
+        {
+          "name": "2.40 with relic & dungeon",
+          "link": "https://xivgear.app/?page=sl%7Cc5b6e456-4422-4a77-97b8-2f52b25e9a42&onlySetIndex=2"
+        },
+        {
+          "name": "2.31 with relic & dungeon",
+          "link": "https://xivgear.app/?page=sl%7Cc5b6e456-4422-4a77-97b8-2f52b25e9a42&onlySetIndex=3"
         }
       ]
     }
@@ -195,12 +297,32 @@
         {
           "name": "2.31 max damage (Genshin Impact)",
           "link": "https://xivgear.app/?page=sl%7Cdca27524-4c12-4cd0-b26b-9bc4abba2d27"
+        },
+        {
+          "name": "Omni healer sets",
+          "link": "https://xivgear.app/?page=sl|f5aa8cde-86b5-4d2f-b104-1fd03ea859d2"
         }
       ],
       "FRU": [
         {
           "name": "All sets",
           "link": "https://xivgear.app/?page=sl%7C371125fe-a34c-4fc6-972b-ad25ef50004d"
+        }
+      ],
+      "TOP": [
+        {
+          "name": "All sets",
+          "link": "https://xivgear.app/?page=sl%7C2eacb6a0-d19a-446e-9029-7ef6986cc5d0"
+        }
+      ],
+      "DSR": [
+        {
+          "name": "2.34",
+          "link": "https://etro.gg/gearset/94febc10-6779-486b-b57f-7993b766f41e"
+        },
+        {
+          "name": "2.39",
+          "link": "https://etro.gg/gearset/577e9cb6-3b19-4fe2-b20e-f0a6dac6a241"
         }
       ]
     }
@@ -225,6 +347,10 @@
         {
           "name": "2.39 max damage",
           "link": "https://xivgear.app/?page=sl%7Ccb86be25-c3c0-4abf-b63c-a1967f34d73e"
+        },
+        {
+          "name": "Omni healer sets",
+          "link": "https://xivgear.app/?page=sl|f5aa8cde-86b5-4d2f-b104-1fd03ea859d2"
         }
       ],
       "FRU": [
@@ -235,6 +361,18 @@
         {
           "name": "2.45 without chaotic",
           "link": "https://xivgear.app/?page=sl%7Cf5d6235f-4517-4328-9cb5-370d9d3c931f"
+        }
+      ],
+      "TOP": [
+        {
+          "name": "All sets",
+          "link": "https://xivgear.app/?page=bis|sge|ultimate|top"
+        }
+      ],
+      "DSR": [
+        {
+          "name": "All sets",
+          "link": "https://xivgear.app/?page=sl%7Cdd937de0-2089-4378-acf5-91bf8db39965"
         }
       ]
     }
@@ -255,8 +393,20 @@
       ],
       "FRU": [
         {
-          "name": "ALl sets",
-          "link": "https://docs.google.com/document/d/1aXJLZCs0t2jxeGO56RXKamUc4QJV35WER6IOt96ckao/edit?tab=t.0"
+          "name": "All sets",
+          "link": "https://docs.google.com/document/d/1aXJLZCs0t2jxeGO56RXKamUc4QJV35WER6IOt96ckao/edit?tab=t.0#heading=h.l1tzbowp9ywo"
+        }
+      ],
+      "TOP": [
+        {
+          "name": "All sets",
+          "link": "https://docs.google.com/document/d/1aXJLZCs0t2jxeGO56RXKamUc4QJV35WER6IOt96ckao/edit?tab=t.0#heading=h.l5yah2butitz"
+        }
+      ],
+      "DSR": [
+        {
+          "name": "All sets",
+          "link": "https://docs.google.com/document/d/1aXJLZCs0t2jxeGO56RXKamUc4QJV35WER6IOt96ckao/edit?tab=t.0#heading=h.kpqzig39dis7"
         }
       ]
     }
@@ -276,6 +426,18 @@
           "name": "2.50",
           "link": "https://xivgear.app/?page=bis%7Cdrg%7Cultimate%7Cfru&selectedIndex=0"
         }
+      ],
+      "TOP": [
+        {
+          "name": "2.50",
+          "link": "https://xivgear.app/?page=sl|cdc91c70-9a72-423c-8a73-a1651d67ccc5"
+        }
+      ],
+      "DSR": [
+        {
+          "name": "2.50",
+          "link": "https://etro.gg/gearset/0ef3d6d5-4b29-4407-a415-ff238494a049"
+        }
       ]
     }
   },
@@ -291,8 +453,20 @@
       ],
       "FRU": [
         {
-          "name": "2.12",
-          "link": "https://xivgear.app/?page=sl%7Cd3479b42-1d9f-4ed2-b003-f3b5f3059f01"
+          "name": "All sets",
+          "link": "https://xivgear.app/?page=sl%7C98ff2fb7-2bb4-440c-90af-13e2107d595a"
+        }
+      ],
+      "TOP": [
+        {
+          "name": "All sets",
+          "link": "https://xivgear.app/?page=sl%7Ce632db0b-0663-4ae0-a55d-370036d2d848"
+        }
+      ],
+      "DSR": [
+        {
+          "name": "All sets",
+          "link": "https://xivgear.app/?page=sl%7Ca40206a8-b6b8-4f1c-b081-3ab45c9a873f"
         }
       ]
     }
@@ -316,6 +490,18 @@
           "name": "All sets",
           "link": "https://xivgear.app/?page=bis|sam|ultimate|fru"
         }
+      ],
+      "TOP": [
+        {
+          "name": "All sets",
+          "link": "https://xivgear.app/?page=bis|sam|ultimate|top"
+        }
+      ],
+      "DSR": [
+        {
+          "name": "All sets",
+          "link": "https://xivgear.app/?page=bis|sam|ultimate|dsr"
+        }
       ]
     }
   },
@@ -331,8 +517,20 @@
       ],
       "FRU": [
         {
-          "name": "2.49",
-          "link": "https://xivgear.app/?page=sl%7C1cf30cb3-3fb2-47b9-a500-d8b117791a8e"
+          "name": "All sets",
+          "link": "https://xivgear.app/?page=bis|rpr|ultimate|fru"
+        }
+      ],
+      "TOP": [
+        {
+          "name": "All sets",
+          "link": "https://xivgear.app/?page=bis|rpr|ultimate|top"
+        }
+      ],
+      "DSR": [
+        {
+          "name": "All sets",
+          "link": "https://xivgear.app/?page=bis|rpr|ultimate|dsr"
         }
       ]
     }
@@ -362,13 +560,25 @@
       "7.4 (current)": [
         {
           "name": "2.49",
-          "link": "https://xivgear.app/?page=sl%7Ce2c1efce-33f8-4cfe-9db2-bd389aa921bb"
+          "link": "https://xivgear.app/?page=sl|e7315100-1b7d-47ba-8158-14b26321d2d6"
         }
       ],
       "FRU": [
         {
-          "name": "2.49",
-          "link": "https://xivgear.app/?page=sl%7C3ad7746a-b612-4b34-9d24-a0f8ae20c857"
+          "name": "All sets",
+          "link": "https://xivgear.app/?page=sl%7C08860f73-14b1-4f10-889a-5ae60195f764"
+        }
+      ],
+      "TOP": [
+        {
+          "name": "Please use sync down gear",
+          "link": "https://discord.com/channels/277897135515762698/1256024037730156645/1256073418340831253"
+        }
+      ],
+      "DSR": [
+        {
+          "name": "Please use sync down gear",
+          "link": "https://discord.com/channels/277897135515762698/1256024037730156645/1256073418340831253"
         }
       ]
     }
@@ -385,8 +595,20 @@
       ],
       "FRU": [
         {
+          "name": "All sets",
+          "link": "https://xivgear.app/?page=sl%7C29b58122-8c79-4c92-8569-2aac404fe861"
+        }
+      ],
+      "TOP": [
+        {
           "name": "2.50",
-          "link": "https://xivgear.app/?page=sl%7C29b58122-8c79-4c92-8569-2aac404fe861&selectedIndex=0"
+          "link": "https://etro.gg/gearset/b9cc3220-50f6-412a-a0dc-cf37899c4abe"
+        }
+      ],
+      "DSR": [
+        {
+          "name": "2.50",
+          "link": "https://xivgear.app/?page=sl|45acbe2d-f4f5-4a5e-9814-33af55134f29"
         }
       ]
     }
@@ -403,8 +625,20 @@
       ],
       "FRU": [
         {
+          "name": "All sets",
+          "link": "https://xivgear.app/?page=bis|dnc|ultimate|fru"
+        }
+      ],
+      "TOP": [
+        {
           "name": "2.50",
-          "link": "https://xivgear.app/?page=bis%7Cdnc%7Cultimate%7Cfru&selectedIndex=0"
+          "link": "https://xivgear.app/?page=bis|dnc|ultimate|top"
+        }
+      ],
+      "DSR": [
+        {
+          "name": "2.50",
+          "link": "https://xivgear.app/?page=bis|dnc|ultimate|dsr"
         }
       ]
     }
@@ -444,6 +678,22 @@
           "name": "All sets",
           "link": "https://xivgear.app/?page=sl%7Cf83e8415-c192-4e91-84df-09c70a47f3d1"
         }
+      ],
+      "TOP": [
+        {
+          "name": "All sets",
+          "link": "https://xivgear.app/?page=sl|6480ebbb-a180-4401-a7c9-650d253c65b7"
+        }
+      ],
+      "DSR": [
+        {
+          "name": "High sps sets",
+          "link": "https://xivgear.app/?page=sl|d1d8c2a1-da5b-4441-b047-5427ff4e8fe5"
+        },
+        {
+          "name": "High crit sets",
+          "link": "https://xivgear.app/?page=sl%7C307bf5a3-d871-42f5-8095-ecd17b8ef823"
+        }
       ]
     }
   },
@@ -467,8 +717,20 @@
       ],
       "FRU": [
         {
+          "name": "All sets",
+          "link": "https://xivgear.app/?page=sl%7C67c7d792-7685-41d8-8b46-b559fb74b1fc"
+        }
+      ],
+      "TOP": [
+        {
           "name": "2.50",
-          "link": "https://xivgear.app/?page=sl%7C67c7d792-7685-41d8-8b46-b559fb74b1fc&selectedIndex=3"
+          "link": "https://xivgear.app/?page=sl|5117ed12-28cb-4cea-8446-4f599c00ceeb&onlySetIndex=5"
+        }
+      ],
+      "DSR": [
+        {
+          "name": "2.50",
+          "link": "https://xivgear.app/?page=sl|5117ed12-28cb-4cea-8446-4f599c00ceeb&onlySetIndex=4"
         }
       ]
     }
@@ -505,8 +767,20 @@
       ],
       "FRU": [
         {
-          "name": "2.48",
-          "link": "https://xivgear.app/?page=sl%7C02243465-733d-4ee5-b92e-6e924fb4591c&selectedIndex=1"
+          "name": "All sets",
+          "link": "https://xivgear.app/?page=sl%7Cd5fa9a30-2d4e-4e61-b015-25d237a616f5"
+        }
+      ],
+      "TOP": [
+        {
+          "name": "All sets",
+          "link": "https://xivgear.app/?page=sl%7Caea22869-8a2c-49bd-859a-ee3d50fa67c7"
+        }
+      ],
+      "DSR": [
+        {
+          "name": "All sets",
+          "link": "https://xivgear.app/?page=sl|6cd23e71-db6b-4cb9-9bf6-42a3d82cd0f9"
         }
       ]
     }
@@ -533,6 +807,18 @@
         {
           "name": "All sets",
           "link": "https://xivgear.app/?page=sl%7C15490375-060a-47a2-80a7-da90a5554ed8"
+        }
+      ],
+      "TOP": [
+        {
+          "name": "All sets",
+          "link": "https://xivgear.app/?page=sl%7C7d16033c-451e-4516-8b09-d58719af6644"
+        }
+      ],
+      "DSR": [
+        {
+          "name": "All sets",
+          "link": "https://xivgear.app/?page=sl%7C8ea6d1b7-fa90-4a7f-8bef-43852e6e8d31"
         }
       ]
     }
