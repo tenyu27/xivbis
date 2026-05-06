@@ -1,9 +1,7 @@
 {
   "categories": [
     "7.4 (current)",
-    "FRU",
-    "TOP",
-    "DSR"
+    "FRU"
   ],
   "PLD": {
     "name": "Paladin",
