@@ -547,8 +547,20 @@
       ],
       "FRU": [
         {
-          "name": "2.09",
-          "link": "https://xivgear.app/?page=sl%7C764814e5-62d2-430b-a7ac-09f9ab72a266"
+          "name": "All sets",
+          "link": "https://xivgear.app/?page=bis|vpr|ultimate|fru"
+        }
+      ],
+      "TOP": [
+        {
+          "name": "All sets",
+          "link": "https://xivgear.app/?page=bis|vpr|ultimate|top"
+        }
+      ],
+      "DSR": [
+        {
+          "name": "All sets",
+          "link": "https://xivgear.app/?page=bis|vpr|ultimate|dsr"
         }
       ]
     }
