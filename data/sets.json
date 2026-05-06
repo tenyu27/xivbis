@@ -9,7 +9,7 @@
     ] },
     { "job": "DRK", "jobName": "Dark Knight", "role": "Tank", "sets": [
       {"name": "2.50", "link": "https://xivgear.app/?page=bis%7Cdrk%7Ccurrent&selectedIndex=0"},
-      {"name": "2.50", "link": "https://xivgear.app/?page=bis%7Cdrk%7Ccurrent&selectedIndex=1"}
+      {"name": "2.46", "link": "https://xivgear.app/?page=bis%7Cdrk%7Ccurrent&selectedIndex=1"}
     ] },
     { "job": "GNB", "jobName": "Gunbreaker", "role": "Tank", "sets": [
       {"name": "2.50", "link": "https://xivgear.app/?page=bis%7Cgnb%7Ccurrent&selectedIndex=0"},
