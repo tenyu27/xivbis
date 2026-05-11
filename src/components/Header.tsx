@@ -1,5 +1,5 @@
-import { Group, Box, Text, ActionIcon, useComputedColorScheme, useMantineColorScheme, Anchor } from '@mantine/core';
-import { IconSun, IconMoon } from '@tabler/icons-react';
+import { Group, Box, Text, ActionIcon, useComputedColorScheme, useMantineColorScheme, Anchor, Button } from '@mantine/core';
+import { IconSun, IconMoon, IconMessageCircle } from '@tabler/icons-react';
 
 export function Header() {
   const { setColorScheme } = useMantineColorScheme();
@@ -31,17 +31,32 @@ export function Header() {
           </Anchor>
         </Text>
       </Box>
-      <ActionIcon 
-        id="theme-toggle"
-        onClick={toggleColorScheme} 
-        variant="light" 
-        color={computedColorScheme === 'dark' ? 'yellow' : 'indigo'}
-        size="lg" 
-        aria-label="Toggle color scheme"
-        radius="md"
-      >
-        {computedColorScheme === 'dark' ? <IconSun size={20} stroke={1.5} /> : <IconMoon size={20} stroke={1.5} />}
-      </ActionIcon>
+      <Group gap="xs">
+        <Button
+          component="a"
+          href="https://forms.gle/r6p5S3Z7tDadiLkFA"
+          target="_blank"
+          rel="noopener noreferrer"
+          variant="light"
+          color="cyan"
+          size="sm"
+          radius="md"
+          leftSection={<IconMessageCircle size={16} stroke={1.5} />}
+        >
+          Feedback
+        </Button>
+        <ActionIcon
+          id="theme-toggle"
+          onClick={toggleColorScheme}
+          variant="light"
+          color={computedColorScheme === 'dark' ? 'yellow' : 'indigo'}
+          size="lg"
+          aria-label="Toggle color scheme"
+          radius="md"
+        >
+          {computedColorScheme === 'dark' ? <IconSun size={20} stroke={1.5} /> : <IconMoon size={20} stroke={1.5} />}
+        </ActionIcon>
+      </Group>
     </Group>
   );
 }
