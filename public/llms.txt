@@ -1,0 +1,20 @@
+# XIVBiS
+
+> XIVBiS is a curated reference website for best-in-slot (BiS) gear sets in Final Fantasy XIV. It provides quick lookup of optimized gear configurations for all FFXIV jobs across different content patches and ultimate raids, with links to detailed gear configurators on xivgear.app.
+
+Website: https://xivbis.com
+
+## Features & Content
+
+- **21 FFXIV Jobs** across 5 roles (Tanks, Healers, Melee DPS, Ranged DPS, Caster DPS)
+- **Multiple Content Categories**: Current patch (7.4), Ultimate raids (FRU, TOP, DSR)
+- **Direct Integration**: One-click links to xivgear.app for detailed stat allocations
+- **Theme Support**: Dark and light mode for accessibility
+- **Mobile Responsive**: Works on desktop and mobile devices
+
+## Data & Gear Information
+
+- [Gear Sets Data](./public/data/sets.json): JSON file containing all job configurations and gear set links
+- **Attribution**: BiS recommendations curated from [The Balance](https://www.thebalanceffxiv.com/) - the FFXIV community theory-crafting resource
+- **Icons**: Job icons provided by [XIVAPI](https://xivapi.com/)
+- **Configuration Tool**: Gear sets link to [xivgear.app](https://xivgear.app/)
