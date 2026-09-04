@@ -1,89 +1,106 @@
-import { useState, useEffect } from 'react';
-import { 
-  AppShell, 
-  Container, 
-  Select, 
-  Box, 
-  Loader, 
-  Center, 
-  Stack, 
-  useComputedColorScheme 
-} from '@mantine/core';
+import { useEffect, useMemo, useState } from 'react';
+import { Box, Center, Container, Loader, Stack, Text, useComputedColorScheme } from '@mantine/core';
+import { IconAlertTriangle } from '@tabler/icons-react';
 import { Header } from './components/Header';
-import { BiSAccordion } from './components/BiSAccordion';
+import { Hero } from './components/Hero';
+import { Toolbar } from './components/Toolbar';
+import { JobGrid } from './components/JobGrid';
 import { Footer } from './components/Footer';
-import { SetsData, BiSSet, JobData } from './types';
+import { BiSSet, JobData, SetsData } from './types';
 
 function App() {
+  const computedColorScheme = useComputedColorScheme('dark', { getInitialValueInEffect: true });
+  const pageBg = computedColorScheme === 'dark' ? 'dark.8' : 'gray.0';
   const [data, setData] = useState<SetsData | null>(null);
-  const [category, setCategory] = useState<string>('');
-  const [loading, setLoading] = useState(true);
-  const computedColorScheme = useComputedColorScheme('light', { getInitialValueInEffect: true });
+  const [category, setCategory] = useState('');
+  const [query, setQuery] = useState('');
+  const [status, setStatus] = useState<'loading' | 'ready' | 'error'>('loading');
 
   useEffect(() => {
     fetch('./data/sets.json')
-      .then(res => res.json())
+      .then((res) => res.json())
       .then((json: SetsData) => {
         setData(json);
-        if (json.categories.length > 0) {
-          setCategory(json.categories[0]);
-        }
-        setLoading(false);
+        if (json.categories.length > 0) setCategory(json.categories[0]);
+        setStatus('ready');
       })
-      .catch(err => {
+      .catch((err) => {
         console.error('Error loading sets:', err);
-        setLoading(false);
+        setStatus('error');
       });
   }, []);
 
-  if (loading || !data) {
-    return (
-      <Center h="100vh" bg={computedColorScheme === 'dark' ? 'dark.8' : 'off-white.0'}>
-        <Loader size="xl" variant="dots" />
-      </Center>
-    );
-  }
+  const jobs = useMemo<BiSSet[]>(() => {
+    if (!data) return [];
+    return Object.entries(data)
+      .filter(([key, value]) => key !== 'categories' && !Array.isArray(value))
+      .map(([jobCode, jobData]) => {
+        const job = jobData as JobData;
+        return {
+          job: jobCode,
+          jobName: job.name,
+          role: job.Role,
+          sets: job.Sets[category] || [],
+        };
+      })
+      .filter((set) => set.sets.length > 0);
+  }, [data, category]);
 
-  const currentSets: BiSSet[] = Object.entries(data)
-    .filter(([key, value]) => key !== 'categories' && typeof value !== 'string' && !Array.isArray(value))
-    .map(([jobCode, jobData]) => {
-      const data = jobData as JobData;
-      return {
-        job: jobCode,
-        jobName: data.name,
-        role: data.Role,
-        sets: data.Sets[category] || []
-      };
-    })
-    .filter(set => set.sets.length > 0);
+  const visibleJobs = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    if (!q) return jobs;
+    return jobs.filter(
+      (set) =>
+        set.jobName.toLowerCase().includes(q) ||
+        set.job.toLowerCase().includes(q) ||
+        set.role.toLowerCase().includes(q)
+    );
+  }, [jobs, query]);
 
   return (
-    <AppShell padding="md">
-      <AppShell.Main bg={computedColorScheme === 'dark' ? 'dark.8' : 'off-white.1'}>
-        <Container size="sm" py="xl">
-          <Stack gap="xl">
-            <Header />
+    <Box mih="100vh" bg={pageBg}>
+      <Container size="lg" px={{ base: 'md', sm: 'xl' }}>
+        <Header />
 
-            <Box>
-              <Select
-                id="category-select"
-                placeholder="Pick a patch or fight"
-                data={data.categories}
-                value={category}
-                onChange={(val) => setCategory(val || data.categories[0])}
-                allowDeselect={false}
-                size="md"
-                maxDropdownHeight={400}
-                w={{ base: '100%', sm: 300 }}
-              />
-            </Box>
+        {status === 'loading' && (
+          <Center mih="60vh">
+            <Loader size="lg" type="dots" />
+          </Center>
+        )}
 
-            <BiSAccordion sets={currentSets} category={category} />
-          </Stack>
-        </Container>
-      </AppShell.Main>
+        {status === 'error' && (
+          <Center mih="60vh">
+            <Stack gap="xs" align="center">
+              <IconAlertTriangle size={32} stroke={1.5} />
+              <Text fw={600}>Could not load the gear sets</Text>
+              <Text size="sm" c="dimmed">
+                Refresh the page to try again.
+              </Text>
+            </Stack>
+          </Center>
+        )}
+
+        {status === 'ready' && data && <Hero />}
+      </Container>
+
+      {status === 'ready' && data && (
+        <>
+          <Toolbar
+            categories={data.categories}
+            category={category}
+            onCategoryChange={setCategory}
+            query={query}
+            onQueryChange={setQuery}
+            bg={pageBg}
+          />
+          <Container size="lg" px={{ base: 'md', sm: 'xl' }} pt="md" pb={64}>
+            <JobGrid sets={visibleJobs} />
+          </Container>
+        </>
+      )}
+
       <Footer />
-    </AppShell>
+    </Box>
   );
 }
 

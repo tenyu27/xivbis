@@ -1,61 +1,75 @@
-import { Group, Box, Text, ActionIcon, useComputedColorScheme, useMantineColorScheme, Anchor, Button } from '@mantine/core';
-import { IconSun, IconMoon, IconMessageCircle } from '@tabler/icons-react';
+import {
+  ActionIcon,
+  Anchor,
+  Button,
+  Group,
+  Image,
+  Text,
+  Tooltip,
+  useComputedColorScheme,
+  useMantineColorScheme,
+} from '@mantine/core';
+import { IconMessageCircle, IconMoon, IconSun } from '@tabler/icons-react';
 
 export function Header() {
   const { setColorScheme } = useMantineColorScheme();
-  const computedColorScheme = useComputedColorScheme('light', { getInitialValueInEffect: true });
+  const computedColorScheme = useComputedColorScheme('dark', { getInitialValueInEffect: true });
+  const isDark = computedColorScheme === 'dark';
 
-  const toggleColorScheme = () => {
-    setColorScheme(computedColorScheme === 'dark' ? 'light' : 'dark');
-  };
+  const toggleColorScheme = () => setColorScheme(isDark ? 'light' : 'dark');
 
   return (
-    <Group justify="space-between" align="flex-start" mb="xl" pt="md">
-      <Box>
-        <Text 
-          component="h1"
-          variant="gradient" 
-          gradient={{ from: 'cyan', to: 'indigo', deg: 135 }} 
-          fw={700} 
-          fz="3rem"
-          lh="1"
-          lts="-1px"
-          m={0}
-        >
-          XIVBiS
-        </Text>
-        <Text size="md" c="dimmed" mt="xs" fw={500}>
-          Curated list of best-in-slot gear sets, sourced from{' '}
-          <Anchor href="https://www.thebalanceffxiv.com/" target="_blank" rel="noopener noreferrer" inherit fw={600} c="cyan" underline="hover">
-            The Balance
-          </Anchor>
-        </Text>
-      </Box>
-      <Group gap="xs">
+    <Group h={60} justify="space-between" wrap="nowrap">
+      <Anchor href="./" underline="never" c="inherit">
+        <Group gap="xs" wrap="nowrap">
+          <Image src="./favicon.svg" alt="" w={26} h={26} />
+          <Text fw={800} fz="lg" lts="-0.5px">
+            XIVBiS
+          </Text>
+        </Group>
+      </Anchor>
+
+      <Group gap="xs" wrap="nowrap">
         <Button
           component="a"
           href="https://forms.gle/r6p5S3Z7tDadiLkFA"
           target="_blank"
           rel="noopener noreferrer"
-          variant="light"
-          color="cyan"
+          variant="default"
           size="sm"
-          radius="md"
-          leftSection={<IconMessageCircle size={16} stroke={1.5} />}
+          h={36}
+          radius="xl"
+          leftSection={<IconMessageCircle size={16} stroke={1.7} />}
+          visibleFrom="xs"
         >
           Feedback
         </Button>
         <ActionIcon
-          id="theme-toggle"
-          onClick={toggleColorScheme}
-          variant="light"
-          color={computedColorScheme === 'dark' ? 'yellow' : 'indigo'}
-          size="lg"
-          aria-label="Toggle color scheme"
-          radius="md"
+          component="a"
+          href="https://forms.gle/r6p5S3Z7tDadiLkFA"
+          target="_blank"
+          rel="noopener noreferrer"
+          variant="default"
+          size={36}
+          radius="xl"
+          aria-label="Send feedback"
+          hiddenFrom="xs"
         >
-          {computedColorScheme === 'dark' ? <IconSun size={20} stroke={1.5} /> : <IconMoon size={20} stroke={1.5} />}
+          <IconMessageCircle size={18} stroke={1.7} />
         </ActionIcon>
+
+        <Tooltip label={isDark ? 'Light mode' : 'Dark mode'} withArrow>
+          <ActionIcon
+            id="theme-toggle"
+            onClick={toggleColorScheme}
+            variant="default"
+            size={36}
+            radius="xl"
+            aria-label="Toggle color scheme"
+          >
+            {isDark ? <IconSun size={18} stroke={1.7} /> : <IconMoon size={18} stroke={1.7} />}
+          </ActionIcon>
+        </Tooltip>
       </Group>
     </Group>
   );
