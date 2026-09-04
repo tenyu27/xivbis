@@ -14,6 +14,7 @@ This repository follows specific architectural and styling patterns. Please adhe
 
 1.  **Sets Data**: All BiS sets must be stored in `public/data/sets.json`.
 2.  **Data Schema**: Maintain the existing schema for patches, categories, and roles to ensure filtering logic remains functional.
+3.  **Editing Sets**: Run `yarn admin` for the local editor at `http://127.0.0.1:5174/admin.html`. It reads and writes `public/data/sets.json` directly through a dev-only endpoint (`tools/vite-plugin-admin-api.ts`), snapshots the previous file to `.admin-backups/` on every save, and is never part of `yarn dev` or the production build. Commit the resulting `sets.json` change to publish it.
 
 ## Deployment
 
