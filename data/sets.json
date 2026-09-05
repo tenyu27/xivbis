@@ -1,6 +1,6 @@
 {
   "categories": [
-    "7.4 (current)",
+    "7.5 (current)",
     "FRU",
     "TOP",
     "DSR"
@@ -9,16 +9,16 @@
     "name": "Paladin",
     "Role": "Tank",
     "Sets": {
-      "7.4 (current)": [
+      "7.5 (current)": [
         {
-          "name": "2.50",
-          "link": "https://xivgear.app/?page=bis%7Cpld%7Ccurrent&selectedIndex=0"
+          "name": "All sets",
+          "link": "https://xivgear.app/bis/pld/current?selectedIndex=0"
         }
       ],
       "FRU": [
         {
           "name": "All sets",
-          "link": "https://xivgear.app/?page=bis|pld|ultimate|fru"
+          "link": "https://xivgear.app/bis/pld/ultimate/fru"
         }
       ],
       "TOP": [
@@ -39,20 +39,16 @@
     "name": "Warrior",
     "Role": "Tank",
     "Sets": {
-      "7.4 (current)": [
+      "7.5 (current)": [
         {
-          "name": "2.50",
-          "link": "https://xivgear.app/?page=bis%7Cwar%7Ccurrent&selectedIndex=0"
-        },
-        {
-          "name": "2.45",
-          "link": "https://xivgear.app/?page=bis%7Cwar%7Ccurrent&selectedIndex=1"
+          "name": "All sets",
+          "link": "https://xivgear.app/bis/war/current?selectedIndex=0"
         }
       ],
       "FRU": [
         {
           "name": "All sets",
-          "link": "https://xivgear.app/#/bis/war/ultimate/fru"
+          "link": "https://xivgear.app/bis/war/ultimate/fru"
         }
       ],
       "TOP": [
@@ -73,20 +69,16 @@
     "name": "Dark Knight",
     "Role": "Tank",
     "Sets": {
-      "7.4 (current)": [
+      "7.5 (current)": [
         {
-          "name": "2.50",
-          "link": "https://xivgear.app/?page=bis%7Cdrk%7Ccurrent&selectedIndex=0"
-        },
-        {
-          "name": "2.46",
-          "link": "https://xivgear.app/?page=bis%7Cdrk%7Ccurrent&selectedIndex=1"
+          "name": "All sets",
+          "link": "https://xivgear.app/bis/drk/current?selectedIndex=0"
         }
       ],
       "FRU": [
         {
           "name": "All sets",
-          "link": "https://xivgear.app/#/bis/drk/ultimate/fru"
+          "link": "https://xivgear.app/bis/drk/ultimate/fru"
         }
       ],
       "TOP": [
@@ -107,24 +99,16 @@
     "name": "Gunbreaker",
     "Role": "Tank",
     "Sets": {
-      "7.4 (current)": [
+      "7.5 (current)": [
         {
-          "name": "2.50",
-          "link": "https://xivgear.app/?page=bis%7Cgnb%7Ccurrent&selectedIndex=0"
-        },
-        {
-          "name": "2.45",
-          "link": "https://xivgear.app/?page=bis%7Cgnb%7Ccurrent&selectedIndex=1"
-        },
-        {
-          "name": "2.40",
-          "link": "https://xivgear.app/?page=bis%7Cgnb%7Ccurrent&selectedIndex=2"
+          "name": "All sets",
+          "link": "https://xivgear.app/bis/gnb/current?selectedIndex=1"
         }
       ],
       "FRU": [
         {
           "name": "All sets",
-          "link": "https://xivgear.app/#/bis/gnb/ultimate/fru"
+          "link": "https://xivgear.app/bis/gnb/ultimate/fru"
         }
       ],
       "TOP": [
@@ -145,30 +129,10 @@
     "name": "White Mage",
     "Role": "Healer",
     "Sets": {
-      "7.4 (current)": [
+      "7.5 (current)": [
         {
-          "name": "2.41 max ilvl",
-          "link": "https://xivgear.app/?page=sl|73551d94-354a-4e30-9205-5d52d2efaf3f&onlySetIndex=1"
-        },
-        {
-          "name": "2.29 max ilvl",
-          "link": "https://xivgear.app/?page=sl|73551d94-354a-4e30-9205-5d52d2efaf3f&onlySetIndex=2"
-        },
-        {
-          "name": "2.43 max ilvl",
-          "link": "https://xivgear.app/?page=sl|73551d94-354a-4e30-9205-5d52d2efaf3f&onlySetIndex=3"
-        },
-        {
-          "name": "2.41 max damage",
-          "link": "https://xivgear.app/?page=sl|73551d94-354a-4e30-9205-5d52d2efaf3f&onlySetIndex=5"
-        },
-        {
-          "name": "2.29 max damage",
-          "link": "https://xivgear.app/?page=sl|73551d94-354a-4e30-9205-5d52d2efaf3f&onlySetIndex=6"
-        },
-        {
-          "name": "2.43 max damage",
-          "link": "https://xivgear.app/?page=sl|73551d94-354a-4e30-9205-5d52d2efaf3f&onlySetIndex=7"
+          "name": "All sets",
+          "link": "https://xivgear.app/sl/73551d94-354a-4e30-9205-5d52d2efaf3f"
         },
         {
           "name": "Omni healer sets",
@@ -177,24 +141,16 @@
       ],
       "FRU": [
         {
-          "name": "2.43 with chaotic",
-          "link": "https://xivgear.app/?page=sl%7Ca1149754-8156-4dd0-abca-b89d27f5380c"
+          "name": "7.5 Relic sets",
+          "link": "https://xivgear.app/sl/8ac8ddf0-2fb2-45b3-aafd-c8e182000be2"
         },
         {
-          "name": "2.46 without chaotic",
-          "link": "https://xivgear.app/?page=sl%7Cb170c30d-ac07-43dd-afc7-fc87ec0195d8"
+          "name": "No dungeon sets",
+          "link": "https://xivgear.app/sl/e08af1db-b169-4a81-bcc9-9150dc044427"
         },
         {
-          "name": "2.48 with relic & chaotic",
-          "link": "https://xivgear.app/?page=sl%7C3ac6a52a-784a-4415-bace-d83715cd2f31"
-        },
-        {
-          "name": "2.46 with relic & no chaotic",
-          "link": "https://xivgear.app/?page=sl%7Cee2b1ca0-f226-4bb8-82c8-39d9fdad646a"
-        },
-        {
-          "name": "Extras",
-          "link": "https://xivgear.app/?page=sl%7Cfa2d771d-3d1a-4aa9-8194-974271c58105"
+          "name": "7.3 sets",
+          "link": "https://xivgear.app/sl/c84016a0-1956-4681-a564-bf59dbd27770"
         }
       ],
       "TOP": [
@@ -219,7 +175,7 @@
     "name": "Scholar",
     "Role": "Healer",
     "Sets": {
-      "7.4 (current)": [
+      "7.5 (current)": [
         {
           "name": "2.40 max ilvl",
           "link": "https://xivgear.app/?page=sl%7C462ebffd-409a-400c-ab40-3ac6c78cf9ad"
@@ -229,12 +185,8 @@
           "link": "https://xivgear.app/?page=sl%7C0ee246c7-6b97-49bf-abe0-3242c9a93ca4"
         },
         {
-          "name": "2.40 max damage",
-          "link": "https://xivgear.app/?page=sl%7Cbd329cd1-5135-45d3-97b6-0d1342f6b5fe"
-        },
-        {
-          "name": "2.31 max damage",
-          "link": "https://xivgear.app/?page=sl%7C3aeed012-438c-4559-9d47-ac407c29e6cf"
+          "name": "Max damage all sets",
+          "link": "https://xivgear.app/sl/a336bb11-552d-4634-b08f-cb3b4657bb61"
         },
         {
           "name": "Omni healer sets",
@@ -244,7 +196,7 @@
       "FRU": [
         {
           "name": "All sets",
-          "link": "https://xivgear.app/?page=sl|a598aaf5-f595-4447-a42e-b7cb023e07dd"
+          "link": "https://xivgear.app/sl/6bb5fbca-35e6-4142-8bf0-9b50b80e900e"
         }
       ],
       "TOP": [
@@ -281,22 +233,14 @@
     "name": "Astrologian",
     "Role": "Healer",
     "Sets": {
-      "7.4 (current)": [
+      "7.5 (current)": [
         {
-          "name": "2.43 max ilvl (Cooking Dinner)",
-          "link": "https://xivgear.app/?page=sl%7C5ee77798-4286-47cd-8ee7-b5872f25165c"
+          "name": "All sets",
+          "link": "https://xivgear.app/sl/a8075b19-a060-4365-b954-a0e17aaa27fd"
         },
         {
-          "name": "2.31 max ilvl (Battlefield 6)",
-          "link": "https://xivgear.app/?page=sl%7C5a11be40-8c70-49f1-8b8a-e18214c10708"
-        },
-        {
-          "name": "2.43 max damage (Phasmophobia)",
-          "link": "https://xivgear.app/?page=sl%7Cd223a0a1-dde4-410a-ac59-e8593e019a63"
-        },
-        {
-          "name": "2.31 max damage (Genshin Impact)",
-          "link": "https://xivgear.app/?page=sl%7Cdca27524-4c12-4cd0-b26b-9bc4abba2d27"
+          "name": "DMU sets",
+          "link": "https://xivgear.app/sl/37c3246f-a59b-4f45-ab9f-959b6f34996f"
         },
         {
           "name": "Omni healer sets",
@@ -306,7 +250,7 @@
       "FRU": [
         {
           "name": "All sets",
-          "link": "https://xivgear.app/?page=sl%7C371125fe-a34c-4fc6-972b-ad25ef50004d"
+          "link": "https://xivgear.app/sl/371125fe-a34c-4fc6-972b-ad25ef50004d"
         }
       ],
       "TOP": [
@@ -331,22 +275,10 @@
     "name": "Sage",
     "Role": "Healer",
     "Sets": {
-      "7.4 (current)": [
+      "7.5 (current)": [
         {
-          "name": "2.45 max ilvl",
-          "link": "https://xivgear.app/?page=sl%7C5a21d4d0-b46d-4f3a-92c1-b49b36455af9"
-        },
-        {
-          "name": "2.39 max ilvl",
-          "link": "https://xivgear.app/?page=sl%7Caa469de7-d685-4b6a-be2c-789961204c42"
-        },
-        {
-          "name": "2.44 max damage",
-          "link": "https://xivgear.app/?page=sl%7C9819c827-f701-4aec-8b21-2f46e37cb1e6"
-        },
-        {
-          "name": "2.39 max damage",
-          "link": "https://xivgear.app/?page=sl%7Ccb86be25-c3c0-4abf-b63c-a1967f34d73e"
+          "name": "All sets",
+          "link": "https://xivgear.app/sl/05db8ac6-6eb5-41ab-9f46-aa1e9d87283c"
         },
         {
           "name": "Omni healer sets",
@@ -355,12 +287,8 @@
       ],
       "FRU": [
         {
-          "name": "2.45 with chaotic",
-          "link": "https://xivgear.app/?page=sl%7C326bbcc1-6390-484e-91a7-c608eeba192e"
-        },
-        {
-          "name": "2.45 without chaotic",
-          "link": "https://xivgear.app/?page=sl%7Cf5d6235f-4517-4328-9cb5-370d9d3c931f"
+          "name": "All sets",
+          "link": "https://xivgear.app/sl/c0ffddaf-07be-4246-a660-026e331e707f"
         }
       ],
       "TOP": [
@@ -381,7 +309,7 @@
     "name": "Monk",
     "Role": "Melee",
     "Sets": {
-      "7.4 (current)": [
+      "7.5 (current)": [
         {
           "name": "1.94",
           "link": "https://xivgear.app/?page=sl%7C8df88ff9-e89c-4503-9085-d7ba8f9ab12b&selectedIndex=14"
@@ -389,6 +317,10 @@
         {
           "name": "1.93",
           "link": "https://xivgear.app/?page=sl%7C8df88ff9-e89c-4503-9085-d7ba8f9ab12b&selectedIndex=16"
+        },
+        {
+          "name": "1.94 with DMU weapon",
+          "link": "https://xivgear.app/sl/130a249b-2690-49f1-96b4-7a442f8b3634?onlySetIndex=1"
         }
       ],
       "FRU": [
@@ -415,16 +347,16 @@
     "name": "Dragoon",
     "Role": "Melee",
     "Sets": {
-      "7.4 (current)": [
+      "7.5 (current)": [
         {
-          "name": "2.50",
-          "link": "https://xivgear.app/?page=bis%7Cdrg%7Ccurrent&selectedIndex=0"
+          "name": "All sets",
+          "link": "https://xivgear.app/bis/drg/current"
         }
       ],
       "FRU": [
         {
           "name": "2.50",
-          "link": "https://xivgear.app/?page=bis%7Cdrg%7Cultimate%7Cfru&selectedIndex=0"
+          "link": "https://xivgear.app/bis/drg/ultimate/fru"
         }
       ],
       "TOP": [
@@ -445,16 +377,16 @@
     "name": "Ninja",
     "Role": "Melee",
     "Sets": {
-      "7.4 (current)": [
+      "7.5 (current)": [
         {
-          "name": "2.12",
-          "link": "https://xivgear.app/?page=bis%7Cnin%7Ccurrent&selectedIndex=0"
+          "name": "All sets",
+          "link": "https://xivgear.app/bis/nin/current"
         }
       ],
       "FRU": [
         {
           "name": "All sets",
-          "link": "https://xivgear.app/?page=sl%7C98ff2fb7-2bb4-440c-90af-13e2107d595a"
+          "link": "https://xivgear.app/sl/98ff2fb7-2bb4-440c-90af-13e2107d595a"
         }
       ],
       "TOP": [
@@ -475,20 +407,16 @@
     "name": "Samurai",
     "Role": "Melee",
     "Sets": {
-      "7.4 (current)": [
+      "7.5 (current)": [
         {
-          "name": "2.14",
-          "link": "https://xivgear.app/?page=bis%7Csam%7Ccurrent&selectedIndex=1"
-        },
-        {
-          "name": "2.08",
-          "link": "https://xivgear.app/?page=bis%7Csam%7Ccurrent&selectedIndex=6"
+          "name": "All sets",
+          "link": "https://xivgear.app/bis/sam/current"
         }
       ],
       "FRU": [
         {
           "name": "All sets",
-          "link": "https://xivgear.app/?page=bis|sam|ultimate|fru"
+          "link": "https://xivgear.app/bis/sam/ultimate/fru"
         }
       ],
       "TOP": [
@@ -509,16 +437,16 @@
     "name": "Reaper",
     "Role": "Melee",
     "Sets": {
-      "7.4 (current)": [
+      "7.5 (current)": [
         {
-          "name": "2.49",
-          "link": "https://xivgear.app/?page=bis%7Crpr%7Ccurrent&selectedIndex=0"
+          "name": "All sets",
+          "link": "https://xivgear.app/bis/rpr/current"
         }
       ],
       "FRU": [
         {
           "name": "All sets",
-          "link": "https://xivgear.app/?page=bis|rpr|ultimate|fru"
+          "link": "https://xivgear.app/bis/rpr/ultimate/fru"
         }
       ],
       "TOP": [
@@ -539,16 +467,16 @@
     "name": "Viper",
     "Role": "Melee",
     "Sets": {
-      "7.4 (current)": [
+      "7.5 (current)": [
         {
-          "name": "2.12",
-          "link": "https://xivgear.app/?page=sl%7C3cee67ac-1e2e-45af-bbd3-1c41bc55ff4e"
+          "name": "All sets",
+          "link": "https://xivgear.app/bis/vpr/current"
         }
       ],
       "FRU": [
         {
           "name": "All sets",
-          "link": "https://xivgear.app/?page=bis|vpr|ultimate|fru"
+          "link": "https://xivgear.app/bis/vpr/ultimate/fru"
         }
       ],
       "TOP": [
@@ -569,16 +497,16 @@
     "name": "Bard",
     "Role": "Ranged",
     "Sets": {
-      "7.4 (current)": [
+      "7.5 (current)": [
         {
-          "name": "2.49",
-          "link": "https://xivgear.app/?page=sl|e7315100-1b7d-47ba-8158-14b26321d2d6"
+          "name": "All sets",
+          "link": "https://xivgear.app/?page=sl%7Cdcb3d409-c4b3-422a-9bd6-6f821e5a99eb"
         }
       ],
       "FRU": [
         {
           "name": "All sets",
-          "link": "https://xivgear.app/?page=sl%7C08860f73-14b1-4f10-889a-5ae60195f764"
+          "link": "https://xivgear.app/sl/fa98b375-e9ee-47f8-a5c0-1555b657e258"
         }
       ],
       "TOP": [
@@ -599,16 +527,20 @@
     "name": "Machinist",
     "Role": "Ranged",
     "Sets": {
-      "7.4 (current)": [
+      "7.5 (current)": [
+        {
+          "name": "2.50 with relic",
+          "link": "https://xivgear.app/sl/694df2d1-ee92-4180-b4bb-3bb553ec5111"
+        },
         {
           "name": "2.50",
-          "link": "https://xivgear.app/?page=sl%7C3dac7eb3-10e4-4ef3-9373-e1e1a78fcc9b"
+          "link": "https://xivgear.app/sl/3dac7eb3-10e4-4ef3-9373-e1e1a78fcc9b"
         }
       ],
       "FRU": [
         {
           "name": "All sets",
-          "link": "https://xivgear.app/?page=sl%7C29b58122-8c79-4c92-8569-2aac404fe861"
+          "link": "https://xivgear.app/sl/fa0680c5-f1e1-418e-b070-c3d723a20226"
         }
       ],
       "TOP": [
@@ -629,16 +561,16 @@
     "name": "Dancer",
     "Role": "Ranged",
     "Sets": {
-      "7.4 (current)": [
+      "7.5 (current)": [
         {
-          "name": "2.50",
-          "link": "https://xivgear.app/?page=bis%7Cdnc%7Ccurrent&selectedIndex=0"
+          "name": "All sets",
+          "link": "https://xivgear.app/bis/dnc/current"
         }
       ],
       "FRU": [
         {
           "name": "All sets",
-          "link": "https://xivgear.app/?page=bis|dnc|ultimate|fru"
+          "link": "https://xivgear.app/bis/dnc/ultimate/fru"
         }
       ],
       "TOP": [
@@ -659,7 +591,23 @@
     "name": "Black Mage",
     "Role": "Caster",
     "Sets": {
-      "7.4 (current)": [
+      "7.5 (current)": [
+        {
+          "name": "2.14 high sps with relic",
+          "link": "https://xivgear.app/?page=sl|b85e6a8c-446e-45f8-bbf9-0c66267dc6c6"
+        },
+        {
+          "name": "2.32 high crit with relic",
+          "link": "https://xivgear.app/?page=sl|121f8038-97f8-4049-a60e-ddc1ba1c9379"
+        },
+        {
+          "name": "2.45 high crit with relic",
+          "link": "https://xivgear.app/?page=sl|9163946b-bf66-4f04-88e8-085c0de747c3"
+        },
+        {
+          "name": "2.50 caster friendly",
+          "link": "https://xivgear.app/?page=sl|98a28ada-28d0-42ac-af78-605bd4813272"
+        },
         {
           "name": "2.15 high sps",
           "link": "https://xivgear.app/?page=sl%7C08698620-8f30-42df-b4c8-df525fe78a95&selectedIndex=0"
@@ -688,7 +636,7 @@
       "FRU": [
         {
           "name": "All sets",
-          "link": "https://xivgear.app/?page=sl%7Cf83e8415-c192-4e91-84df-09c70a47f3d1"
+          "link": "https://xivgear.app/sl/efab7e9e-d7dc-46be-a9ba-e8f65870edf3"
         }
       ],
       "TOP": [
@@ -713,24 +661,16 @@
     "name": "Red Mage",
     "Role": "Caster",
     "Sets": {
-      "7.4 (current)": [
+      "7.5 (current)": [
         {
-          "name": "2.50",
-          "link": "https://xivgear.app/?page=sl%7Cbfc781a4-ef20-4f2d-ba35-66388adb30c6"
-        },
-        {
-          "name": "2.49",
-          "link": "https://xivgear.app/?page=sl%7C3a78b6f3-1c36-4a7d-82c6-a2d3ceee62da"
-        },
-        {
-          "name": "2.48",
-          "link": "https://xivgear.app/?page=sl%7Cd01bbb2f-0636-486e-a633-e7a9944760a4"
+          "name": "All sets",
+          "link": "https://xivgear.app/bis/rdm/current"
         }
       ],
       "FRU": [
         {
           "name": "All sets",
-          "link": "https://xivgear.app/?page=sl%7C67c7d792-7685-41d8-8b46-b559fb74b1fc"
+          "link": "https://xivgear.app/bis/rdm/ultimate/fru"
         }
       ],
       "TOP": [
@@ -751,36 +691,16 @@
     "name": "Summoner",
     "Role": "Caster",
     "Sets": {
-      "7.4 (current)": [
+      "7.5 (current)": [
         {
-          "name": "2.48",
-          "link": "https://xivgear.app/?page=sl%7Ccff8f14d-cc73-459a-86b8-b7476b4d878c&selectedIndex=0"
-        },
-        {
-          "name": "2.48 sync friendly",
-          "link": "https://xivgear.app/?page=sl%7Ccff8f14d-cc73-459a-86b8-b7476b4d878c&selectedIndex=1"
-        },
-        {
-          "name": "2.47",
-          "link": "https://xivgear.app/?page=sl%7Ccff8f14d-cc73-459a-86b8-b7476b4d878c&selectedIndex=2"
-        },
-        {
-          "name": "2.47 sync friendly",
-          "link": "https://xivgear.app/?page=sl%7Ccff8f14d-cc73-459a-86b8-b7476b4d878c&selectedIndex=3"
-        },
-        {
-          "name": "2.46",
-          "link": "https://xivgear.app/?page=sl%7Ccff8f14d-cc73-459a-86b8-b7476b4d878c&selectedIndex=4"
-        },
-        {
-          "name": "2.46 sync friendly",
-          "link": "https://xivgear.app/?page=sl%7Ccff8f14d-cc73-459a-86b8-b7476b4d878c&selectedIndex=5"
+          "name": "All sets",
+          "link": "https://xivgear.app/bis/smn/current"
         }
       ],
       "FRU": [
         {
           "name": "All sets",
-          "link": "https://xivgear.app/?page=sl%7Cd5fa9a30-2d4e-4e61-b015-25d237a616f5"
+          "link": "https://xivgear.app/bis/smn/ultimate/fru"
         }
       ],
       "TOP": [
@@ -801,24 +721,16 @@
     "name": "Pictomancer",
     "Role": "Caster",
     "Sets": {
-      "7.4 (current)": [
+      "7.5 (current)": [
         {
-          "name": "2.50",
-          "link": "https://xivgear.app/?page=sl%7C4bd90c49-7a54-483f-9107-042c89c8c68f&selectedIndex=0"
-        },
-        {
-          "name": "2.49",
-          "link": "https://xivgear.app/?page=sl%7C4bd90c49-7a54-483f-9107-042c89c8c68f&selectedIndex=1"
-        },
-        {
-          "name": "2.48",
-          "link": "https://xivgear.app/?page=sl%7C4bd90c49-7a54-483f-9107-042c89c8c68f&selectedIndex=2"
+          "name": "All sets",
+          "link": "https://xivgear.app/sl/2de78579-bfee-4f1c-88a2-a75bd4426ba6"
         }
       ],
       "FRU": [
         {
           "name": "All sets",
-          "link": "https://xivgear.app/?page=sl%7C15490375-060a-47a2-80a7-da90a5554ed8"
+          "link": "https://xivgear.app/sl/377835da-c899-4271-a23c-28733e0caab9"
         }
       ],
       "TOP": [
