@@ -1,4 +1,4 @@
-import { Button, Card, Group, Image, Stack, Text } from '@mantine/core';
+import { Anchor, Button, Card, Group, Image, Stack, Text } from '@mantine/core';
 import { IconArrowUpRight } from '@tabler/icons-react';
 import { BiSSet } from '../types';
 import { FALLBACK_JOB_ICON, jobIconUrl } from '../constants';
@@ -29,7 +29,13 @@ export function JobCard({ set }: JobCardProps) {
           />
           <Stack gap={2}>
             <Text component="h3" fw={700} fz="md" lh={1.2} m={0}>
-              {set.jobName}
+              <Anchor
+                href={`/${set.jobName.toLowerCase().replace(/ /g, '-')}-bis/`}
+                underline="never"
+                c="inherit"
+              >
+                {set.jobName} BiS
+              </Anchor>
             </Text>
             <Text fz="xs" c="dimmed" fw={500} tt="uppercase" lts="0.5px">
               {set.job}

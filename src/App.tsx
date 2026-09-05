@@ -8,6 +8,8 @@ import { JobGrid } from './components/JobGrid';
 import { Footer } from './components/Footer';
 import { BiSSet, JobData, SetsData } from './types';
 
+const jobPageSlug = window.location.pathname.match(/\/([a-z-]+)-bis\/?$/)?.[1];
+
 function App() {
   const computedColorScheme = useComputedColorScheme('dark', { getInitialValueInEffect: true });
   const pageBg = computedColorScheme === 'dark' ? 'dark.8' : 'gray.0';
@@ -22,6 +24,13 @@ function App() {
       .then((json: SetsData) => {
         setData(json);
         if (json.categories.length > 0) setCategory(json.categories[0]);
+        if (jobPageSlug) {
+          const matchedJob = Object.entries(json).find(([, value]) => {
+            if (Array.isArray(value)) return false;
+            return value.name.toLowerCase().replace(/ /g, '-') === jobPageSlug;
+          });
+          if (matchedJob) setQuery(matchedJob[0]);
+        }
         setStatus('ready');
       })
       .catch((err) => {
