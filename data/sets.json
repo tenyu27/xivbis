@@ -746,5 +746,41 @@
         }
       ]
     }
+  },
+  "BLU": {
+    "name": "Blue Mage",
+    "Role": "Limited",
+    "Sets": {
+      "7.5 (current)": [
+        {
+          "name": "2.20 crit sps",
+          "link": "https://etro.gg/gearset/b4f7e26d-8462-44c3-ae13-ed0c814d1219"
+        },
+        {
+          "name": "2.16 sps det",
+          "link": "https://etro.gg/gearset/aac075e6-7d9b-4a00-89c8-74b5bd797870"
+        },
+        {
+          "name": "2.45 crit det",
+          "link": "https://etro.gg/gearset/f951ef11-4732-4003-84b3-d83b049dfce0"
+        },
+        {
+          "name": "2.50 crit det",
+          "link": "https://etro.gg/gearset/c3d95233-b69b-4ca7-845f-a203058dca4f"
+        }
+      ]
+    }
+  },
+  "BST": {
+    "name": "Beastmaster",
+    "Role": "Limited",
+    "Sets": {
+      "7.5 (current)": [
+        {
+          "name": "All sets",
+          "link": "https://xivgear.app/sl/f3065532-a551-4083-9444-5a02ceb0aab8"
+        }
+      ]
+    }
   }
 }
