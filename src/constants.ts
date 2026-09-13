@@ -20,6 +20,7 @@ export const JOB_ICON_MAP: Record<string, string> = {
   SMN: 'summoner',
   RDM: 'redmage',
   PCT: 'pct',
+  BLU: 'bluemage',
 };
 
 export const ROLE_COLOR_MAP: Record<string, string> = {
@@ -28,10 +29,11 @@ export const ROLE_COLOR_MAP: Record<string, string> = {
   Melee: 'red',
   Ranged: 'orange',
   Caster: 'grape',
+  Limited: 'yellow',
 };
 
 /** Display order for role sections; anything unknown is appended alphabetically. */
-export const ROLE_ORDER = ['Tank', 'Healer', 'Melee', 'Ranged', 'Caster'];
+export const ROLE_ORDER = ['Tank', 'Healer', 'Melee', 'Ranged', 'Caster', 'Limited'];
 
 const ICON_BASE = 'https://raw.githubusercontent.com/xivapi/classjob-icons/master/companion';
 

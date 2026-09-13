@@ -30,11 +30,11 @@ export function JobCard({ set }: JobCardProps) {
           <Stack gap={2}>
             <Text component="h3" fw={700} fz="md" lh={1.2} m={0}>
               <Anchor
-                href={`/${set.jobName.toLowerCase().replace(/ /g, '-')}-bis/`}
+                href={`./${set.jobName.toLowerCase().replace(/ /g, '-')}-bis/`}
                 underline="never"
                 c="inherit"
               >
-                {set.jobName} BiS
+                {set.jobName}
               </Anchor>
             </Text>
             <Text fz="xs" c="dimmed" fw={500} tt="uppercase" lts="0.5px">

@@ -24,11 +24,11 @@ const gearLinks = (job) => Object.entries(job.Sets)
 const jobDirectory = (job) => `
   <section aria-labelledby="jobs-heading">
     <h2 id="jobs-heading">FFXIV BiS by job</h2>
-    <ul>${jobs.map(({ name, code, slug }) => `<li><a href="/${slug}/">${escapeHtml(name)} BiS (${escapeHtml(code)} BiS)</a></li>`).join('')}</ul>
+    <ul>${jobs.map(({ name, slug }) => `<li><a href="./${slug}/">${escapeHtml(name)}</a></li>`).join('')}</ul>
   </section>`;
 
 const replaceMetadata = (html, { title, description, url, keywords }) => html
-  .replace('<head>', '<head>\n  <base href="../" />')
+  .replace(/<base href="[^"]*" \/>/, '<base href="../" />')
   .replace(/<title>.*?<\/title>/, `<title>${escapeHtml(title)}</title>`)
   .replace(/<meta name="description"\s+content="[^"]*" \/>/, `<meta name="description" content="${escapeHtml(description)}" />`)
   .replace(/<meta name="keywords"\s+content="[^"]*" \/>/, `<meta name="keywords" content="${escapeHtml(keywords)}" />`)
@@ -71,7 +71,7 @@ const pageStructuredData = (job, url, description) => JSON.stringify({
 const rootContent = `
   <main>
     <h1>FFXIV best-in-slot gear sets</h1>
-    <p>Current Final Fantasy XIV BiS gear sets for all 21 combat jobs, including Savage, Futures Rewritten Ultimate (FRU), The Omega Protocol (TOP), and Dragonsong's Reprise (DSR).</p>
+    <p>Current Final Fantasy XIV BiS gear sets for combat and limited jobs, including Savage, Futures Rewritten Ultimate (FRU), The Omega Protocol (TOP), and Dragonsong's Reprise (DSR).</p>
     ${jobDirectory()}
   </main>`;
 
@@ -85,10 +85,10 @@ await writeFile(
 for (const job of jobs) {
   const url = `${siteUrl}/${job.slug}/`;
   const title = `${job.name} BiS (FFXIV ${job.code} Best-in-Slot) | XIVBiS`;
-  const description = `Current FFXIV ${job.name} BiS gear sets for Savage, FRU, TOP and DSR. Find ${job.code} best-in-slot builds sourced from The Balance.`;
+  const description = `Current FFXIV ${job.name} BiS gear sets for ${Object.keys(job.Sets).join(', ')}. Find ${job.code} best-in-slot builds sourced from The Balance.`;
   const content = `
     <main>
-      <nav><a href="/">All FFXIV BiS gear sets</a></nav>
+      <nav><a href="./">All FFXIV BiS gear sets</a></nav>
       <h1>FFXIV ${escapeHtml(job.name)} BiS gear sets</h1>
       <p>Current ${escapeHtml(job.name)} (${escapeHtml(job.code)}) best-in-slot gear sets for Final Fantasy XIV. Choose a raid tier and open the full build to see its equipment, materia and stats.</p>
       ${gearLinks(job)}

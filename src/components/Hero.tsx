@@ -7,7 +7,7 @@ export function Hero() {
         FFXIV best-in-slot gear sets
       </Title>
       <Text c="dimmed">
-        Gear sets for all 21 combat jobs, sourced from{' '}
+        Gear sets for combat and limited jobs, sourced from{' '}
         <Anchor
           href="https://www.thebalanceffxiv.com/"
           target="_blank"
