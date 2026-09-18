@@ -16,5 +16,5 @@ Website: https://xivbis.com
 
 - [Gear Sets Data](https://xivbis.com/data/sets.json): JSON file containing all job configurations and gear set links
 - **Attribution**: BiS recommendations curated from [The Balance](https://www.thebalanceffxiv.com/) - the FFXIV community theory-crafting resource
-- **Icons**: Job icons provided by [XIVAPI](https://xivapi.com/)
+- **Icons**: Official [FINAL FANTASY XIV Job Guide](https://na.finalfantasyxiv.com/jobguide/battle/) icons hosted locally, including Beastmaster. Empty fallback sourced from [XIVAPI](https://github.com/xivapi/classjob-icons). Artwork © SQUARE ENIX.
 - **Configuration Tool**: Gear sets link to [xivgear.app](https://xivgear.app/)

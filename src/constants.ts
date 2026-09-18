@@ -12,15 +12,16 @@ export const JOB_ICON_MAP: Record<string, string> = {
   NIN: 'ninja',
   SAM: 'samurai',
   RPR: 'reaper',
-  VPR: 'vpr',
+  VPR: 'viper',
   BRD: 'bard',
   MCH: 'machinist',
   DNC: 'dancer',
   BLM: 'blackmage',
   SMN: 'summoner',
   RDM: 'redmage',
-  PCT: 'pct',
+  PCT: 'pictomancer',
   BLU: 'bluemage',
+  BST: 'beastmaster',
 };
 
 export const ROLE_COLOR_MAP: Record<string, string> = {
@@ -35,7 +36,7 @@ export const ROLE_COLOR_MAP: Record<string, string> = {
 /** Display order for role sections; anything unknown is appended alphabetically. */
 export const ROLE_ORDER = ['Tank', 'Healer', 'Melee', 'Ranged', 'Caster', 'Limited'];
 
-const ICON_BASE = 'https://raw.githubusercontent.com/xivapi/classjob-icons/master/companion';
+const ICON_BASE = `${import.meta.env.BASE_URL}icons/jobs`;
 
 export const FALLBACK_JOB_ICON = `${ICON_BASE}/none.png`;
 
